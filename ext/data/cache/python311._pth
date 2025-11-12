@@ -1,0 +1,5 @@
+python311.zip
+.
+# The following line has been added by Millennium
+# This will implicitly run site.main() which lets us pip from 'python -m pip'
+import site
