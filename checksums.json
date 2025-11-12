@@ -1,0 +1,1696 @@
+{
+  "metadata": {
+    "generated": "2025-11-12T08:38:14.968040",
+    "base_directory": "C:\\Users\\xsantana\\Downloads\\hydra-3.6.3\\Project\\Depencies",
+    "total_files": 281,
+    "generator": "DGelectron Checksum Generator v1.0"
+  },
+  "files": {
+    ".gitattributes": {
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "size": 66,
+      "modified": "2025-11-12T08:31:25.453270",
+      "size_human": "66.00 B"
+    },
+    "ext\\data\\assets\\.millennium\\Dist\\743950167cf26eea.gif": {
+      "sha256": "867c93839825a2c9ea31b7d97c83e5229dd89f50733cbc791205758af260407b",
+      "size": 764550,
+      "modified": "2025-11-11T20:58:20.441184",
+      "size_human": "746.63 KB"
+    },
+    "ext\\data\\assets\\.millennium\\Dist\\93d52991f36a5a46.gif": {
+      "sha256": "eeceefb2e978cef17a7637cc0631dc268350560c5b98f9ec66adb48199a43ba8",
+      "size": 353545,
+      "modified": "2025-11-11T20:58:20.440179",
+      "size_human": "345.26 KB"
+    },
+    "ext\\data\\assets\\.millennium\\Dist\\index.js": {
+      "sha256": "64efae9198092c05dbbde735084eab111bbe65131fd287bdbe172be29b5bc3b4",
+      "size": 540371,
+      "modified": "2025-11-11T20:58:20.444184",
+      "size_human": "527.71 KB"
+    },
+    "ext\\data\\assets\\requirements.txt": {
+      "sha256": "4e04c63d51ad1f026783db2d57d3d4f8233210ed619dd76e55b8f50f3a8197f8",
+      "size": 385,
+      "modified": "2025-11-08T04:17:41.918415",
+      "size_human": "385.00 B"
+    },
+    "ext\\data\\cache\\_asyncio.pyd": {
+      "sha256": "dad4f873643346b341cade3e35c4fa76cc8ab07cea7ae1b2a39c647253e500ef",
+      "size": 56600,
+      "modified": "2025-11-08T17:27:02.280151",
+      "size_human": "55.27 KB"
+    },
+    "ext\\data\\cache\\_bz2.pyd": {
+      "sha256": "0b7dc35d0b4c835da14f585848b257e80ee521c0f9981a10672b1580fd649aaa",
+      "size": 81176,
+      "modified": "2025-11-08T17:27:02.301152",
+      "size_human": "79.27 KB"
+    },
+    "ext\\data\\cache\\_ctypes.pyd": {
+      "sha256": "55e84aae2af563e8496caf3a49c371195db31082c235e0c99388bd3a11068a99",
+      "size": 108312,
+      "modified": "2025-11-08T17:27:02.433202",
+      "size_human": "105.77 KB"
+    },
+    "ext\\data\\cache\\_decimal.pyd": {
+      "sha256": "70689647478a778396e43dc70f2f5e8aa1077b9e3e7bdc6586134fe06af9f97a",
+      "size": 198936,
+      "modified": "2025-11-08T17:27:02.399201",
+      "size_human": "194.27 KB"
+    },
+    "ext\\data\\cache\\_elementtree.pyd": {
+      "sha256": "cee3598a110d5f1e04ae0fb274eec2fb6fa2dc145d6aba2faafe80a976c82e25",
+      "size": 115992,
+      "modified": "2025-11-08T17:27:02.416202",
+      "size_human": "113.27 KB"
+    },
+    "ext\\data\\cache\\_hashlib.pyd": {
+      "sha256": "811b2fd0d0d074ae9fa696d0cb067dd6f02de15272a62a89ad8b8bc9a38bd6a3",
+      "size": 49944,
+      "modified": "2025-11-08T17:27:02.422202",
+      "size_human": "48.77 KB"
+    },
+    "ext\\data\\cache\\_lzma.pyd": {
+      "sha256": "0dd2f12ef761c91bc180ab6dbae7c1f77d9e0a7867e254cfe85cb6f2c8816668",
+      "size": 148760,
+      "modified": "2025-11-08T17:27:02.412202",
+      "size_human": "145.27 KB"
+    },
+    "ext\\data\\cache\\_msi.pyd": {
+      "sha256": "a17273900b67110e4967cd21771d2e54142150f4d90b7d8c94495471fea2f05c",
+      "size": 37656,
+      "modified": "2025-11-08T17:27:02.394202",
+      "size_human": "36.77 KB"
+    },
+    "ext\\data\\cache\\_multiprocessing.pyd": {
+      "sha256": "070d683770b060fdc9b3084b22e53643eec66fb82fb3f9b0391262a9da21de4f",
+      "size": 29976,
+      "modified": "2025-11-08T17:27:02.419203",
+      "size_human": "29.27 KB"
+    },
+    "ext\\data\\cache\\_overlapped.pyd": {
+      "sha256": "9461d590e01bde596fe370208d390a7b3467f9e92549b7ca06d7135db23bc382",
+      "size": 43288,
+      "modified": "2025-11-08T17:27:02.283153",
+      "size_human": "42.27 KB"
+    },
+    "ext\\data\\cache\\_queue.pyd": {
+      "sha256": "7e2045789f7727798190d4f92b777f08e23212b6ddb1ed6a6900eca3083e2fe1",
+      "size": 28952,
+      "modified": "2025-11-08T17:27:02.260642",
+      "size_human": "28.27 KB"
+    },
+    "ext\\data\\cache\\_socket.pyd": {
+      "sha256": "1bfc4c081b9bee5693d6c56989ee8696da115e44eb5ba4dc9e7371c27ad761a8",
+      "size": 68888,
+      "modified": "2025-11-08T17:27:02.490394",
+      "size_human": "67.27 KB"
+    },
+    "ext\\data\\cache\\_sqlite3.pyd": {
+      "sha256": "b7c6e6bd781d328caec3238b958ddde5abf6082934d4e0d8fbff1fdcc13a67b7",
+      "size": 91416,
+      "modified": "2025-11-08T17:27:02.230670",
+      "size_human": "89.27 KB"
+    },
+    "ext\\data\\cache\\_ssl.pyd": {
+      "sha256": "3ce10299eafcd9a800ad10088bb2e6a2220587cfacc64e0be171165a9a7bbce4",
+      "size": 155416,
+      "modified": "2025-11-08T17:27:02.440203",
+      "size_human": "151.77 KB"
+    },
+    "ext\\data\\cache\\_uuid.pyd": {
+      "sha256": "9fd334bd51c97109d583a6fb453acfba9f8db15d6f4047a4fe8a17e7233fef42",
+      "size": 23320,
+      "modified": "2025-11-08T17:27:02.436203",
+      "size_human": "22.77 KB"
+    },
+    "ext\\data\\cache\\_zoneinfo.pyd": {
+      "sha256": "da2590b287bb8bfd05e0e0a93a5c258933cb1d8afb0a3fe27bcf805f659bef24",
+      "size": 39704,
+      "modified": "2025-11-08T17:27:02.356158",
+      "size_human": "38.77 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\distutils-precedence.pth": {
+      "sha256": "2638ce9e2500e572a5e0de7faed6661eb569d1b696fcba07b0dd223da5f5d224",
+      "size": 151,
+      "modified": "2025-11-08T17:27:02.519389",
+      "size_human": "151.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:03.676985",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\certifi\\cacert.pem": {
+      "sha256": "966ddc609c44bfd4a8031e00b5cdcd893d43f7677deb9bdc203e87dfd7fff77a",
+      "size": 290057,
+      "modified": "2025-11-08T17:27:04.775625",
+      "size_human": "283.26 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\certifi\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:04.782625",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\dependency_groups\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:04.662588",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\distlib\\t32.exe": {
+      "sha256": "6b4195e640a85ac32eb6f9628822a622057df1e459df7c17a12f97aeabc9415b",
+      "size": 97792,
+      "modified": "2025-11-08T17:27:04.491044",
+      "size_human": "95.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\distlib\\t64-arm.exe": {
+      "sha256": "ebc4c06b7d95e74e315419ee7e88e1d0f71e9e9477538c00a93a9ff8c66a6cfc",
+      "size": 182784,
+      "modified": "2025-11-08T17:27:04.501046",
+      "size_human": "178.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\distlib\\t64.exe": {
+      "sha256": "81a618f21cb87db9076134e70388b6e9cb7c2106739011b6a51772d22cae06b7",
+      "size": 108032,
+      "modified": "2025-11-08T17:27:04.511045",
+      "size_human": "105.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\distlib\\w32.exe": {
+      "sha256": "47872cc77f8e18cf642f868f23340a468e537e64521d9a3a416c8b84384d064b",
+      "size": 91648,
+      "modified": "2025-11-08T17:27:04.517052",
+      "size_human": "89.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\distlib\\w64-arm.exe": {
+      "sha256": "c5dc9884a8f458371550e09bd396e5418bf375820a31b9899f6499bf391c7b2e",
+      "size": 168448,
+      "modified": "2025-11-08T17:27:04.496048",
+      "size_human": "164.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\distlib\\w64.exe": {
+      "sha256": "7a319ffaba23a017d7b1e18ba726ba6c54c53d6446db55f92af53c279894f8ad",
+      "size": 101888,
+      "modified": "2025-11-08T17:27:04.543048",
+      "size_human": "99.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\distro\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:04.728108",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\idna\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:04.836628",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\packaging\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:03.869140",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\platformdirs\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:05.028661",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\pyproject_hooks\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:04.023356",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\resolvelib\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:04.899148",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\rich\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:02.862982",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\tomli\\py.typed": {
+      "sha256": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+      "size": 26,
+      "modified": "2025-11-08T17:27:03.782604",
+      "size_human": "26.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\tomli_w\\py.typed": {
+      "sha256": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+      "size": 26,
+      "modified": "2025-11-08T17:27:03.992357",
+      "size_human": "26.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\truststore\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:05.110195",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\_vendor\\vendor.txt": {
+      "sha256": "7dac2af13d5715f061b38ae38d29787d40373f1f4fda6b46d9ebeaa8fca16e17",
+      "size": 343,
+      "modified": "2025-11-08T17:27:02.595921",
+      "size_human": "343.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip\\py.typed": {
+      "sha256": "10156fbcf4539ff788a73e5ee50ced48276b317ed0c1ded53fddd14a82256762",
+      "size": 286,
+      "modified": "2025-11-08T17:27:02.565404",
+      "size_human": "286.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\entry_points.txt": {
+      "sha256": "79e223bb37e77d1d8fae16e39dbcc553a327492ef49192f1c1a1c7aba33e6c3d",
+      "size": 87,
+      "modified": "2025-11-08T17:27:06.778575",
+      "size_human": "87.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:06.767564",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\AUTHORS.txt": {
+      "sha256": "8a811f3069248b37137083ddbe387e918ca63b513d23d76fcc78cb525292e66f",
+      "size": 11385,
+      "modified": "2025-11-08T17:27:06.786570",
+      "size_human": "11.12 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\LICENSE.txt": {
+      "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104",
+      "size": 1093,
+      "modified": "2025-11-08T17:27:06.789573",
+      "size_human": "1.07 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\cachecontrol\\LICENSE.txt": {
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+      "size": 558,
+      "modified": "2025-11-08T17:27:06.846571",
+      "size_human": "558.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\certifi\\LICENSE": {
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "size": 989,
+      "modified": "2025-11-08T17:27:06.973680",
+      "size_human": "989.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\dependency_groups\\LICENSE.txt": {
+      "sha256": "1ab36e3e2a4ba8631625384f87e9e091db1faed034c5b23325b3239abf2cc525",
+      "size": 1099,
+      "modified": "2025-11-08T17:27:06.953094",
+      "size_human": "1.07 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\distlib\\LICENSE.txt": {
+      "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+      "size": 14531,
+      "modified": "2025-11-08T17:27:06.943087",
+      "size_human": "14.19 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\distro\\LICENSE": {
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+      "size": 11325,
+      "modified": "2025-11-08T17:27:06.963094",
+      "size_human": "11.06 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\idna\\LICENSE.md": {
+      "sha256": "a59f0b0ef3635874109a4461ca44ff7a70d50696e814767bfaf721d4c9b0db0f",
+      "size": 1541,
+      "modified": "2025-11-08T17:27:06.983680",
+      "size_human": "1.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\msgpack\\COPYING": {
+      "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427",
+      "size": 614,
+      "modified": "2025-11-08T17:27:06.933124",
+      "size_human": "614.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\packaging\\LICENSE": {
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "size": 197,
+      "modified": "2025-11-08T17:27:06.882090",
+      "size_human": "197.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\packaging\\LICENSE.APACHE": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "size": 10174,
+      "modified": "2025-11-08T17:27:06.870086",
+      "size_human": "9.94 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\packaging\\LICENSE.BSD": {
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "size": 1344,
+      "modified": "2025-11-08T17:27:06.876088",
+      "size_human": "1.31 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\pkg_resources\\LICENSE": {
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "size": 1023,
+      "modified": "2025-11-08T17:27:06.893087",
+      "size_human": "1023.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\platformdirs\\LICENSE": {
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "size": 1089,
+      "modified": "2025-11-08T17:27:07.003680",
+      "size_human": "1.06 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\pygments\\LICENSE": {
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "size": 1331,
+      "modified": "2025-11-08T17:27:06.836575",
+      "size_human": "1.30 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\pyproject_hooks\\LICENSE": {
+      "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+      "size": 1081,
+      "modified": "2025-11-08T17:27:06.912087",
+      "size_human": "1.06 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\requests\\LICENSE": {
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "size": 10142,
+      "modified": "2025-11-08T17:27:06.825571",
+      "size_human": "9.90 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\resolvelib\\LICENSE": {
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+      "size": 751,
+      "modified": "2025-11-08T17:27:06.993684",
+      "size_human": "751.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\rich\\LICENSE": {
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+      "size": 1056,
+      "modified": "2025-11-08T17:27:06.815573",
+      "size_human": "1.03 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\tomli\\LICENSE": {
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "size": 1072,
+      "modified": "2025-11-08T17:27:06.859575",
+      "size_human": "1.05 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\tomli\\LICENSE-HEADER": {
+      "sha256": "97ce9330905a172dde870ee0361d89beb95ba3bd0f4545796aa91a8c01a43531",
+      "size": 121,
+      "modified": "2025-11-08T17:27:06.856575",
+      "size_human": "121.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\tomli_w\\LICENSE": {
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "size": 1072,
+      "modified": "2025-11-08T17:27:06.902087",
+      "size_human": "1.05 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\truststore\\LICENSE": {
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+      "size": 1086,
+      "modified": "2025-11-08T17:27:07.015681",
+      "size_human": "1.06 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\licenses\\src\\pip\\_vendor\\urllib3\\LICENSE.txt": {
+      "sha256": "c37bf186e27cf9dbe9619e55edfe3cea7b30091ceb3da63c7dacbe0e6d77907b",
+      "size": 1115,
+      "modified": "2025-11-08T17:27:06.922087",
+      "size_human": "1.09 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\METADATA": {
+      "sha256": "97a3ad14d71fd8914a38f24af5b31a1f9faeb05aea66a4af40d979d6d7ad229f",
+      "size": 4744,
+      "modified": "2025-11-08T17:27:06.774571",
+      "size_human": "4.63 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\RECORD": {
+      "sha256": "82fae1c14e5dda7e7402ef224f5a3499f1725d68597a5e94f7b6e68a7be41bb9",
+      "size": 67264,
+      "modified": "2025-11-08T17:27:06.765061",
+      "size_human": "65.69 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:06.759059",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\top_level.txt": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:06.770572",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pip-25.2.dist-info\\WHEEL": {
+      "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+      "size": 91,
+      "modified": "2025-11-08T17:27:06.762059",
+      "size_human": "91.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pkg_resources\\api_tests.txt": {
+      "sha256": "5c476fcb88a01c7aeadaa34734c1e795f3ba5d240a36a3b22c76e5e907297c02",
+      "size": 12595,
+      "modified": "2025-11-08T17:27:06.552035",
+      "size_human": "12.30 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pkg_resources\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:06.555041",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pkg_resources\\tests\\data\\my-test-package-source\\setup.cfg": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:06.654533",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pkg_resources\\tests\\data\\my-test-package-zip\\my-test-package.zip": {
+      "sha256": "01845c437f4655e3cf9cc4fc4e49cfd607431f22675e1b611129a90239f34822",
+      "size": 1809,
+      "modified": "2025-11-08T17:27:06.641524",
+      "size_human": "1.77 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pkg_resources\\tests\\data\\my-test-package_unpacked-egg\\my_test_package-1.0-py3.7.egg\\EGG-INFO\\dependency_links.txt": {
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1,
+      "modified": "2025-11-08T17:27:06.690046",
+      "size_human": "1.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pkg_resources\\tests\\data\\my-test-package_unpacked-egg\\my_test_package-1.0-py3.7.egg\\EGG-INFO\\PKG-INFO": {
+      "sha256": "26f5aff48a363c0b98c04130d9f056e1073962f75b92c729297d6498bceca079",
+      "size": 187,
+      "modified": "2025-11-08T17:27:06.687045",
+      "size_human": "187.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pkg_resources\\tests\\data\\my-test-package_unpacked-egg\\my_test_package-1.0-py3.7.egg\\EGG-INFO\\SOURCES.txt": {
+      "sha256": "e029641fc793a2f66b755ac916c56ec5d6cc105fbe941552b8aa270c03c4e497",
+      "size": 208,
+      "modified": "2025-11-08T17:27:06.696047",
+      "size_human": "208.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pkg_resources\\tests\\data\\my-test-package_unpacked-egg\\my_test_package-1.0-py3.7.egg\\EGG-INFO\\top_level.txt": {
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1,
+      "modified": "2025-11-08T17:27:06.693046",
+      "size_human": "1.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pkg_resources\\tests\\data\\my-test-package_unpacked-egg\\my_test_package-1.0-py3.7.egg\\EGG-INFO\\zip-safe": {
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1,
+      "modified": "2025-11-08T17:27:06.700045",
+      "size_human": "1.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\pkg_resources\\tests\\data\\my-test-package_zipped-egg\\my_test_package-1.0-py3.7.egg": {
+      "sha256": "65394c1b18d11a2283364880d9cef98db407d93588b5e3f4d22ac5f60bdccdba",
+      "size": 843,
+      "modified": "2025-11-08T17:27:06.710045",
+      "size_human": "843.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:10.316801",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\LICENSE": {
+      "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d",
+      "size": 7634,
+      "modified": "2025-11-08T17:27:10.327800",
+      "size_human": "7.46 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\METADATA": {
+      "sha256": "3800d9b91dceea2065a6ed6279383362e97ac38b8e56b9343f404ee531860099",
+      "size": 15006,
+      "modified": "2025-11-08T17:27:10.323806",
+      "size_human": "14.65 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\RECORD": {
+      "sha256": "822bba66b41526fa547186b80221f85da50d652bee5493dbfe5d14085112f0c3",
+      "size": 1308,
+      "modified": "2025-11-08T17:27:10.313799",
+      "size_human": "1.28 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\top_level.txt": {
+      "sha256": "0337e180a292f04740c16513485f2681e5506d7398f64a241c1ea44aac30aaed",
+      "size": 12,
+      "modified": "2025-11-08T17:27:10.320798",
+      "size_human": "12.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\WHEEL": {
+      "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+      "size": 92,
+      "modified": "2025-11-08T17:27:10.310798",
+      "size_human": "92.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:09.725494",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\LICENSE": {
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "size": 1023,
+      "modified": "2025-11-08T17:27:09.735498",
+      "size_human": "1023.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\METADATA": {
+      "sha256": "8215c54ead77d9dc5a108a25c6bdc72b5999aa6f62c9499a440359412afa5a51",
+      "size": 2020,
+      "modified": "2025-11-08T17:27:09.732497",
+      "size_human": "1.97 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\RECORD": {
+      "sha256": "258a1f1c849e1175069a55a5d6ce357afdd04e34cd5de27093e4acec7a9d2ce1",
+      "size": 1360,
+      "modified": "2025-11-08T17:27:09.721493",
+      "size_human": "1.33 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:09.714528",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\top_level.txt": {
+      "sha256": "7068da2cc3a8051d452b4029a23b73595995893b49ec91882bf1f05e212cbed5",
+      "size": 10,
+      "modified": "2025-11-08T17:27:09.728499",
+      "size_human": "10.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\WHEEL": {
+      "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+      "size": 92,
+      "modified": "2025-11-08T17:27:09.718531",
+      "size_human": "92.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:09.906557",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:10.348799",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358,
+      "modified": "2025-11-08T17:27:10.359806",
+      "size_human": "11.09 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA": {
+      "sha256": "6a7b90effee1e09d5b484cdf7232016a43e2d9cc9543bcbb8e494b1ec05e1f59",
+      "size": 4648,
+      "modified": "2025-11-08T17:27:10.355804",
+      "size_human": "4.54 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD": {
+      "sha256": "0d8d3c6eeb9ebbe86cac7d60861552433c329da9ea51248b61d02be2e5e64030",
+      "size": 2518,
+      "modified": "2025-11-08T17:27:10.345799",
+      "size_human": "2.46 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:10.338800",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt": {
+      "sha256": "08eddf0fdcb29403625e4acca38a872d5fe6a972f6b02e4914a82dd725804fe0",
+      "size": 19,
+      "modified": "2025-11-08T17:27:10.351799",
+      "size_human": "19.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL": {
+      "sha256": "9a0b8c95618c5fe5479cca4a3a38d089d228d6cb1194216ee1ae26069cf5b363",
+      "size": 91,
+      "modified": "2025-11-08T17:27:10.341800",
+      "size_human": "91.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\inflect\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:09.614972",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\inflect-7.3.1.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:09.537915",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\inflect-7.3.1.dist-info\\LICENSE": {
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "size": 1023,
+      "modified": "2025-11-08T17:27:09.548918",
+      "size_human": "1023.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\inflect-7.3.1.dist-info\\METADATA": {
+      "sha256": "66030d634580651b3e53cc19895d9231f8d22aa06b327817c8332cfc20303308",
+      "size": 21079,
+      "modified": "2025-11-08T17:27:09.545915",
+      "size_human": "20.58 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\inflect-7.3.1.dist-info\\RECORD": {
+      "sha256": "5d7834ac1ba2612c6801050fde57a7b98b0f36acf88c3c2d4f376fd8911b3091",
+      "size": 943,
+      "modified": "2025-11-08T17:27:09.534915",
+      "size_human": "943.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\inflect-7.3.1.dist-info\\top_level.txt": {
+      "sha256": "9b9dae8dda75d02a93ea38755d0c594fa9049ed727bfeed397b52218d4f35990",
+      "size": 8,
+      "modified": "2025-11-08T17:27:09.542914",
+      "size_human": "8.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\inflect-7.3.1.dist-info\\WHEEL": {
+      "sha256": "cb8997f92397e1f6089289ec0060393743b2fbcfe0238157c391cd235c6abd68",
+      "size": 91,
+      "modified": "2025-11-08T17:27:09.531916",
+      "size_human": "91.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\collections\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:10.808975",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools\\__init__.pyi": {
+      "sha256": "824dddb201f3a3917f53be07cc0be9362bc500f0a43c9d5bdbec8277ad9d7e7c",
+      "size": 3878,
+      "modified": "2025-11-08T17:27:10.714442",
+      "size_human": "3.79 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:10.720441",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt": {
+      "sha256": "37fedcffbf73c4eb9f058f47677cb33203a436ff9390e4d38a8e01c9dad28e0b",
+      "size": 1335,
+      "modified": "2025-11-08T17:27:10.764453",
+      "size_human": "1.30 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:10.228225",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\LICENSE": {
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "size": 1023,
+      "modified": "2025-11-08T17:27:10.238224",
+      "size_human": "1023.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\METADATA": {
+      "sha256": "20c51a96236c0395f53b1f4c5d458e6a0721e51e16c1bff733b7aba76f5d06d8",
+      "size": 3933,
+      "modified": "2025-11-08T17:27:10.234224",
+      "size_human": "3.84 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\RECORD": {
+      "sha256": "1e9b62bd70e4a5fa26e9594cbb80860ffeca3debfee8773daefa774cd259ca06",
+      "size": 873,
+      "modified": "2025-11-08T17:27:10.223222",
+      "size_human": "873.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:10.216224",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\top_level.txt": {
+      "sha256": "d099cddcb7d71f82c845f5cbf9014e18227341664edc42f1e11d5dfe5a2ea103",
+      "size": 7,
+      "modified": "2025-11-08T17:27:10.231223",
+      "size_human": "7.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\WHEEL": {
+      "sha256": "31d8bd3c3370119a6d3a34e551c02d87b5c90c5b4aac761a40c3ee9597810a24",
+      "size": 91,
+      "modified": "2025-11-08T17:27:10.220225",
+      "size_human": "91.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.context-5.3.0.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:09.857043",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.context-5.3.0.dist-info\\LICENSE": {
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "size": 1023,
+      "modified": "2025-11-08T17:27:09.867043",
+      "size_human": "1023.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.context-5.3.0.dist-info\\METADATA": {
+      "sha256": "c43b60b897a3d2d37d8845c252fc44261d9aef171e21154111a9012d2afffed6",
+      "size": 4020,
+      "modified": "2025-11-08T17:27:09.864043",
+      "size_human": "3.93 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.context-5.3.0.dist-info\\RECORD": {
+      "sha256": "55197b88a78443297bb2d827a75baae740b33896251d872835d4b4c75ec2f57e",
+      "size": 641,
+      "modified": "2025-11-08T17:27:09.854043",
+      "size_human": "641.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.context-5.3.0.dist-info\\top_level.txt": {
+      "sha256": "d099cddcb7d71f82c845f5cbf9014e18227341664edc42f1e11d5dfe5a2ea103",
+      "size": 7,
+      "modified": "2025-11-08T17:27:09.861043",
+      "size_human": "7.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.context-5.3.0.dist-info\\WHEEL": {
+      "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+      "size": 92,
+      "modified": "2025-11-08T17:27:09.851037",
+      "size_human": "92.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:10.672445",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info\\LICENSE": {
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "size": 1023,
+      "modified": "2025-11-08T17:27:10.682441",
+      "size_human": "1023.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info\\METADATA": {
+      "sha256": "8b86946900d7fa38dd1102b9c1ebe17a0cb1f09c8b7e29f61f2bda4a4dc51eca",
+      "size": 2891,
+      "modified": "2025-11-08T17:27:10.679441",
+      "size_human": "2.82 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info\\RECORD": {
+      "sha256": "632aa7c04f7c4bcc01c027af5b9bc76fe8958f4a181035b957a3bd3014ba248b",
+      "size": 843,
+      "modified": "2025-11-08T17:27:10.668373",
+      "size_human": "843.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info\\top_level.txt": {
+      "sha256": "d099cddcb7d71f82c845f5cbf9014e18227341664edc42f1e11d5dfe5a2ea103",
+      "size": 7,
+      "modified": "2025-11-08T17:27:10.675445",
+      "size_human": "7.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info\\WHEEL": {
+      "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+      "size": 92,
+      "modified": "2025-11-08T17:27:10.665372",
+      "size_human": "92.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:10.837975",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\LICENSE": {
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "size": 1023,
+      "modified": "2025-11-08T17:27:10.847975",
+      "size_human": "1023.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\METADATA": {
+      "sha256": "03359d9ba56231f0ce3e840c7cb5a7db380141218949ccaa78ddbd4dcb965d52",
+      "size": 3658,
+      "modified": "2025-11-08T17:27:10.844975",
+      "size_human": "3.57 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\RECORD": {
+      "sha256": "816d945741dca246099388ca3eed74fc0667acbaa36f70b559b2494c3979b1f6",
+      "size": 1500,
+      "modified": "2025-11-08T17:27:10.833975",
+      "size_human": "1.46 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:10.827974",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\top_level.txt": {
+      "sha256": "d099cddcb7d71f82c845f5cbf9014e18227341664edc42f1e11d5dfe5a2ea103",
+      "size": 7,
+      "modified": "2025-11-08T17:27:10.840975",
+      "size_human": "7.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\WHEEL": {
+      "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+      "size": 92,
+      "modified": "2025-11-08T17:27:10.830974",
+      "size_human": "92.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.pyi": {
+      "sha256": "e41dde4f338dd4106e38ba1bd6f09f97211bda549deaeb17410f82bfe85791e0",
+      "size": 43,
+      "modified": "2025-11-08T17:27:10.873500",
+      "size_human": "43.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.pyi": {
+      "sha256": "8975deaade3c3717bc5469885a99155ee2a947615836ebb60d4f2740b5820aed",
+      "size": 21484,
+      "modified": "2025-11-08T17:27:10.856981",
+      "size_human": "20.98 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:10.881501",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.pyi": {
+      "sha256": "4ff99d1a970575facfdc94966f0cd83fd272355f86a3eed13dfa717dfb405a50",
+      "size": 4617,
+      "modified": "2025-11-08T17:27:10.863981",
+      "size_human": "4.51 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools-10.3.0.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:10.169224",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools-10.3.0.dist-info\\LICENSE": {
+      "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "size": 1053,
+      "modified": "2025-11-08T17:27:10.176228",
+      "size_human": "1.03 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools-10.3.0.dist-info\\METADATA": {
+      "sha256": "0453bdd0ef9f2cd89540ca63ee8212e73b73809514419dd3037d8fe471f737e0",
+      "size": 36293,
+      "modified": "2025-11-08T17:27:10.173224",
+      "size_human": "35.44 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools-10.3.0.dist-info\\RECORD": {
+      "sha256": "77c8e73e018dc0fd7e9ed6c80b05a4404545f641fb085220ce42b368b59aa3d3",
+      "size": 1259,
+      "modified": "2025-11-08T17:27:10.166710",
+      "size_human": "1.23 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools-10.3.0.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:10.159741",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools-10.3.0.dist-info\\WHEEL": {
+      "sha256": "ad282afc9a4717d7c7475971e77ab083fd7ed8bca9644fea99cb976d552af78f",
+      "size": 81,
+      "modified": "2025-11-08T17:27:10.163710",
+      "size_human": "81.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:10.060122",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\INSTALLER": {
+      "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9",
+      "size": 2,
+      "modified": "2025-11-08T17:27:10.287800",
+      "size_human": "2.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\LICENSE": {
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "size": 197,
+      "modified": "2025-11-08T17:27:10.300800",
+      "size_human": "197.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\LICENSE.APACHE": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "size": 10174,
+      "modified": "2025-11-08T17:27:10.293800",
+      "size_human": "9.94 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\LICENSE.BSD": {
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "size": 1344,
+      "modified": "2025-11-08T17:27:10.297801",
+      "size_human": "1.31 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\METADATA": {
+      "sha256": "a211fceacea4e6621f4316364d2d0b7127c00de3856b8062082f9bc5957ea4db",
+      "size": 3204,
+      "modified": "2025-11-08T17:27:10.290800",
+      "size_human": "3.13 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\RECORD": {
+      "sha256": "6380eb5ccd0a63402b7f385b0046b52d814fc16dd612011e2f8882a977be03e3",
+      "size": 2009,
+      "modified": "2025-11-08T17:27:10.284797",
+      "size_human": "1.96 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:10.278799",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\WHEEL": {
+      "sha256": "0a950253178741b44de54191407611268acee407fe432fdf1cc72d710f034862",
+      "size": 82,
+      "modified": "2025-11-08T17:27:10.281799",
+      "size_human": "82.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:10.945501",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:09.383397",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\licenses\\LICENSE": {
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "size": 1089,
+      "modified": "2025-11-08T17:27:09.396396",
+      "size_human": "1.06 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\METADATA": {
+      "sha256": "ce6b227b4d46d4cb57474c2022fe57a557933bb89daf4596bdf9b12ac296b869",
+      "size": 11429,
+      "modified": "2025-11-08T17:27:09.387402",
+      "size_human": "11.16 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\RECORD": {
+      "sha256": "4c211d76d42ed40efc3acfcc866d8912a718afbca2b7e51849442366d6e99fe8",
+      "size": 1642,
+      "modified": "2025-11-08T17:27:09.380399",
+      "size_human": "1.60 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:09.374397",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\WHEEL": {
+      "sha256": "cc431c46bf4aaf4df1d68cc6c20e6ff4d4012a7de49dda7a2d2a1295583e8e15",
+      "size": 87,
+      "modified": "2025-11-08T17:27:09.377398",
+      "size_human": "87.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\py.typed": {
+      "sha256": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+      "size": 26,
+      "modified": "2025-11-08T17:27:09.759508",
+      "size_human": "26.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\tomli-2.0.1.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:10.647365",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\tomli-2.0.1.dist-info\\LICENSE": {
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "size": 1072,
+      "modified": "2025-11-08T17:27:10.655372",
+      "size_human": "1.05 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\tomli-2.0.1.dist-info\\METADATA": {
+      "sha256": "ccf0dc78a98fc0918b5ad67292b1e2c4bed65575a6246cd9d63c914f9942a0f2",
+      "size": 8875,
+      "modified": "2025-11-08T17:27:10.652367",
+      "size_human": "8.67 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\tomli-2.0.1.dist-info\\RECORD": {
+      "sha256": "0cb9f9a451a1e365ac54b4c88662e1da0cb54a72d16a5258fb0abff9d3e1c022",
+      "size": 999,
+      "modified": "2025-11-08T17:27:10.644366",
+      "size_human": "999.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\tomli-2.0.1.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:10.638365",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\tomli-2.0.1.dist-info\\WHEEL": {
+      "sha256": "8cf311fc3ce47385f889c42d9b3f35967358fe402c7e883baf2eeaa11bd82d7c",
+      "size": 81,
+      "modified": "2025-11-08T17:27:10.641367",
+      "size_human": "81.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typeguard\\py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:09.454404",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\entry_points.txt": {
+      "sha256": "aa9ecd43568bb624a0310aa8ea05a57c6a72d08217ce830999e4132e9cea1594",
+      "size": 48,
+      "modified": "2025-11-08T17:27:09.808033",
+      "size_human": "48.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:09.797034",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\LICENSE": {
+      "sha256": "6163f7987dfb38d6bc320ce2b70b2f02b862bc41126516d552ef1cd43247e758",
+      "size": 1130,
+      "modified": "2025-11-08T17:27:09.812034",
+      "size_human": "1.10 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\METADATA": {
+      "sha256": "cf675c1c0a744f08580855390de87cc77d676b312582e8d4cfdb5bb8fd298d21",
+      "size": 3717,
+      "modified": "2025-11-08T17:27:09.804035",
+      "size_human": "3.63 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\RECORD": {
+      "sha256": "48a51959582478352275428ceecd78ef77d79ac9dae796e39a2eaf2540282552",
+      "size": 2402,
+      "modified": "2025-11-08T17:27:09.794032",
+      "size_human": "2.35 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\top_level.txt": {
+      "sha256": "e33dbc021b83a1dc114bf73527f97c1f9d6de50bb07d3b1eb24633971a7a82bb",
+      "size": 10,
+      "modified": "2025-11-08T17:27:09.800033",
+      "size_human": "10.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\WHEEL": {
+      "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+      "size": 92,
+      "modified": "2025-11-08T17:27:09.791033",
+      "size_human": "92.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions-4.12.2.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:10.254236",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions-4.12.2.dist-info\\LICENSE": {
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "size": 13936,
+      "modified": "2025-11-08T17:27:10.261233",
+      "size_human": "13.61 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions-4.12.2.dist-info\\METADATA": {
+      "sha256": "05e51021af1c9d86eb8d6c7e37c4cece733d5065b91a6d8389c5690ed440f16d",
+      "size": 3018,
+      "modified": "2025-11-08T17:27:10.257233",
+      "size_human": "2.95 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions-4.12.2.dist-info\\RECORD": {
+      "sha256": "7710002d81971e632aa6a2fc33dc5d74aaf5d7caae22040a65d3e31503b05ee9",
+      "size": 571,
+      "modified": "2025-11-08T17:27:10.251224",
+      "size_human": "571.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions-4.12.2.dist-info\\WHEEL": {
+      "sha256": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+      "size": 81,
+      "modified": "2025-11-08T17:27:10.247225",
+      "size_human": "81.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\LICENSE": {
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "size": 197,
+      "modified": "2025-11-08T17:27:10.520843",
+      "size_human": "197.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\LICENSE.APACHE": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "size": 10174,
+      "modified": "2025-11-08T17:27:10.505837",
+      "size_human": "9.94 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\LICENSE.BSD": {
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "size": 1344,
+      "modified": "2025-11-08T17:27:10.509843",
+      "size_human": "1.31 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\vendor.txt": {
+      "sha256": "67610d8c1d62e69adf7b3f0274cd5276bddce99c6fdab451a253292e60677001",
+      "size": 16,
+      "modified": "2025-11-08T17:27:10.448316",
+      "size_human": "16.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\entry_points.txt": {
+      "sha256": "ad363505b90f1e1906326e10dc5d29233241cd6da4331a06d68ae27dfbc6740d",
+      "size": 104,
+      "modified": "2025-11-08T17:27:09.839033",
+      "size_human": "104.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:09.832033",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt": {
+      "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+      "size": 1107,
+      "modified": "2025-11-08T17:27:09.842032",
+      "size_human": "1.08 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\METADATA": {
+      "sha256": "98acfce07ee6ee3b31272cde21c4d53918936f434f315dfd2af3886211a09a30",
+      "size": 2313,
+      "modified": "2025-11-08T17:27:09.835033",
+      "size_human": "2.26 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD": {
+      "sha256": "d639f1ac7c993c3715bd42f27c616189b6b86792fdfd1b17afd77170d6e16984",
+      "size": 4900,
+      "modified": "2025-11-08T17:27:09.829032",
+      "size_human": "4.79 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:09.823039",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\WHEEL": {
+      "sha256": "0a950253178741b44de54191407611268acee407fe432fdf1cc72d710f034862",
+      "size": 82,
+      "modified": "2025-11-08T17:27:09.826034",
+      "size_human": "82.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:10.195257",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\LICENSE": {
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "size": 1023,
+      "modified": "2025-11-08T17:27:10.205225",
+      "size_human": "1023.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\METADATA": {
+      "sha256": "508ae4fe43081c64b0b0a2828588b3a8cc3430c6693d1676662569400b0dfdb1",
+      "size": 3575,
+      "modified": "2025-11-08T17:27:10.202224",
+      "size_human": "3.49 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\RECORD": {
+      "sha256": "f316f2e03fd9ade7ebbc0b154706848e2bb8fd568b90935109f0d8e3ce2b9bfe",
+      "size": 1039,
+      "modified": "2025-11-08T17:27:10.192259",
+      "size_human": "1.01 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:10.186229",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\top_level.txt": {
+      "sha256": "8806dda121df686a817d56f65ee47d26a4901c2a0eb0eb46eb2f42fcb4a9a85c",
+      "size": 5,
+      "modified": "2025-11-08T17:27:10.199259",
+      "size_human": "5.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\WHEEL": {
+      "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+      "size": 92,
+      "modified": "2025-11-08T17:27:10.189224",
+      "size_human": "92.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\cli-32.exe": {
+      "sha256": "32acc1bc543116cbe2cff10cb867772df2f254ff2634c870aef0b46c4b696fdb",
+      "size": 11776,
+      "modified": "2025-11-08T17:27:07.351262",
+      "size_human": "11.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\cli-64.exe": {
+      "sha256": "bbb3de5707629e6a60a0c238cd477b28f07f0066982fda953fa6fcec39073a4a",
+      "size": 14336,
+      "modified": "2025-11-08T17:27:07.377327",
+      "size_human": "14.00 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\cli-arm64.exe": {
+      "sha256": "b9a7d08da880dfac8bcf548eba4b06fb59b6f09b17d33148a0f6618328926c61",
+      "size": 13824,
+      "modified": "2025-11-08T17:27:07.449330",
+      "size_human": "13.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\cli.exe": {
+      "sha256": "32acc1bc543116cbe2cff10cb867772df2f254ff2634c870aef0b46c4b696fdb",
+      "size": 11776,
+      "modified": "2025-11-08T17:27:07.355273",
+      "size_human": "11.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\command\\launcher manifest.xml": {
+      "sha256": "c652db8d6ac1d35b4a0b4fa195590e2a48923dbccc9a5d9e38fb49fee7029db1",
+      "size": 628,
+      "modified": "2025-11-08T17:27:09.139838",
+      "size_human": "628.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\NOTICE": {
+      "sha256": "5d300dbfa643138b013b75ac9caeee591f951b8b0ee24288c34ccd926c4780c8",
+      "size": 18737,
+      "modified": "2025-11-08T17:27:11.068536",
+      "size_human": "18.30 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\config\\NOTICE": {
+      "sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8",
+      "size": 493,
+      "modified": "2025-11-08T17:27:10.998022",
+      "size_human": "493.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\gui-32.exe": {
+      "sha256": "85dae1e95d77845f2cb59bcac3d4afe74bbe4c91a9bcc5bf4a71cd43104dbe7c",
+      "size": 11776,
+      "modified": "2025-11-08T17:27:07.474859",
+      "size_human": "11.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\gui-64.exe": {
+      "sha256": "3471b6140eadc6412277dbbefe3fef8c345a0f1a59776086b80a3618c3a83e3b",
+      "size": 14336,
+      "modified": "2025-11-08T17:27:07.418362",
+      "size_human": "14.00 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\gui-arm64.exe": {
+      "sha256": "e694f4743405c8b5926ff457db6fe7f1a12dec7c16a9c3864784d3f4e07ae097",
+      "size": 13824,
+      "modified": "2025-11-08T17:27:07.371333",
+      "size_human": "13.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\gui.exe": {
+      "sha256": "85dae1e95d77845f2cb59bcac3d4afe74bbe4c91a9bcc5bf4a71cd43104dbe7c",
+      "size": 11776,
+      "modified": "2025-11-08T17:27:07.410329",
+      "size_human": "11.50 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\script (dev).tmpl": {
+      "sha256": "454cd0cc2414697b7074bb581d661b21098e6844b906baaad45bd403fb6efb92",
+      "size": 218,
+      "modified": "2025-11-08T17:27:07.306302",
+      "size_human": "218.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\script.tmpl": {
+      "sha256": "5864ede6989eccedbb73e0dbc7a9794384f715fdb4039cfbf3bda1bf76808586",
+      "size": 138,
+      "modified": "2025-11-08T17:27:07.391329",
+      "size_human": "138.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\tests\\config\\setupcfg_examples.txt": {
+      "sha256": "7006d5bc26e4159b9350beb1451cd182ac81d2b2ef2537efc370f7d20968d8e1",
+      "size": 1912,
+      "modified": "2025-11-08T17:27:08.930811",
+      "size_human": "1.87 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\tests\\indexes\\test_links_priority\\external.html": {
+      "sha256": "78bf5eb8eb84f7724a65daa55f104e9476cac08b8db8876aec6051a6c68f31c5",
+      "size": 92,
+      "modified": "2025-11-08T17:27:08.890790",
+      "size_human": "92.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools\\tests\\indexes\\test_links_priority\\simple\\foobar\\index.html": {
+      "sha256": "0c3f932abed4538cc08c71f3e157b1603352033476ee57af4a1d5cfa4dd974b1",
+      "size": 174,
+      "modified": "2025-11-08T17:27:08.907793",
+      "size_human": "174.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools-80.9.0.dist-info\\entry_points.txt": {
+      "sha256": "ce482d8697ff15af4d544f69e85293dd793d0d1d5f680711538728820b15ee30",
+      "size": 2449,
+      "modified": "2025-11-08T17:27:06.741046",
+      "size_human": "2.39 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools-80.9.0.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:06.731046",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools-80.9.0.dist-info\\licenses\\LICENSE": {
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "size": 1023,
+      "modified": "2025-11-08T17:27:06.749044",
+      "size_human": "1023.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools-80.9.0.dist-info\\METADATA": {
+      "sha256": "7f890ca8dbc16b63b568c89312ed6a7f9f0a79d0b2b7f3c83bf796ac3d930615",
+      "size": 6572,
+      "modified": "2025-11-08T17:27:06.738045",
+      "size_human": "6.42 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools-80.9.0.dist-info\\RECORD": {
+      "sha256": "54d32a3b2c6d19f0837effe38e91d4643003f19f4a2a59b978d41d6e2f5ca5db",
+      "size": 75433,
+      "modified": "2025-11-08T17:27:06.728045",
+      "size_human": "73.67 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools-80.9.0.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:06.721044",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools-80.9.0.dist-info\\top_level.txt": {
+      "sha256": "77dc8bdfdbff5bbaa62830d21fab13e1b1348ff2ecd4cdcfd7ad4e1a076c9b88",
+      "size": 41,
+      "modified": "2025-11-08T17:27:06.734044",
+      "size_human": "41.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\setuptools-80.9.0.dist-info\\WHEEL": {
+      "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+      "size": 91,
+      "modified": "2025-11-08T17:27:06.724046",
+      "size_human": "91.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\wheel\\vendored\\packaging\\LICENSE": {
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "size": 197,
+      "modified": "2025-11-08T17:27:07.188745",
+      "size_human": "197.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\wheel\\vendored\\packaging\\LICENSE.APACHE": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "size": 10174,
+      "modified": "2025-11-08T17:27:07.172747",
+      "size_human": "9.94 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\wheel\\vendored\\packaging\\LICENSE.BSD": {
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "size": 1344,
+      "modified": "2025-11-08T17:27:07.176748",
+      "size_human": "1.31 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\wheel\\vendored\\vendor.txt": {
+      "sha256": "67610d8c1d62e69adf7b3f0274cd5276bddce99c6fdab451a253292e60677001",
+      "size": 16,
+      "modified": "2025-11-08T17:27:07.109245",
+      "size_human": "16.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\wheel-0.45.1.dist-info\\entry_points.txt": {
+      "sha256": "ad363505b90f1e1906326e10dc5d29233241cd6da4331a06d68ae27dfbc6740d",
+      "size": 104,
+      "modified": "2025-11-08T17:27:02.543395",
+      "size_human": "104.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\wheel-0.45.1.dist-info\\INSTALLER": {
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size": 4,
+      "modified": "2025-11-08T17:27:02.537395",
+      "size_human": "4.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\wheel-0.45.1.dist-info\\LICENSE.txt": {
+      "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+      "size": 1107,
+      "modified": "2025-11-08T17:27:02.546392",
+      "size_human": "1.08 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\wheel-0.45.1.dist-info\\METADATA": {
+      "sha256": "98acfce07ee6ee3b31272cde21c4d53918936f434f315dfd2af3886211a09a30",
+      "size": 2313,
+      "modified": "2025-11-08T17:27:02.540395",
+      "size_human": "2.26 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\wheel-0.45.1.dist-info\\RECORD": {
+      "sha256": "4f85a88fe80cdf42ca1cbac67aeee3143c799a5b3d78456a4966552c0c5a8c30",
+      "size": 4978,
+      "modified": "2025-11-08T17:27:02.534391",
+      "size_human": "4.86 KB"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\wheel-0.45.1.dist-info\\REQUESTED": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "modified": "2025-11-08T17:27:02.528390",
+      "size_human": "0.00 B"
+    },
+    "ext\\data\\cache\\Lib\\site-packages\\wheel-0.45.1.dist-info\\WHEEL": {
+      "sha256": "0a950253178741b44de54191407611268acee407fe432fdf1cc72d710f034862",
+      "size": 82,
+      "modified": "2025-11-08T17:27:02.531389",
+      "size_human": "82.00 B"
+    },
+    "ext\\data\\cache\\libcrypto-3.dll": {
+      "sha256": "7de51a1913ca3b10027f83d99ccccb166d6a3c06ca5d6358f260342dbacdbf6a",
+      "size": 3500312,
+      "modified": "2025-11-08T17:27:02.471389",
+      "size_human": "3.34 MB"
+    },
+    "ext\\data\\cache\\libffi-8.dll": {
+      "sha256": "b982741576a050860c3f3608c7b269dbd35ab296429192b8afa53f1f190069c0",
+      "size": 35088,
+      "modified": "2025-11-08T17:27:02.308155",
+      "size_human": "34.27 KB"
+    },
+    "ext\\data\\cache\\libssl-3.dll": {
+      "sha256": "b777ccc04c05ca5b0a6ff68e6c46ad9837dc02311ee132ad6a81910f4a1ed54f",
+      "size": 635672,
+      "modified": "2025-11-08T17:27:02.479389",
+      "size_human": "620.77 KB"
+    },
+    "ext\\data\\cache\\LICENSE.txt": {
+      "sha256": "e502c6b880ff58d614901495a9009c136539cd0b1e2a2abb8fc00b934c203419",
+      "size": 36874,
+      "modified": "2025-11-08T17:27:02.425202",
+      "size_human": "36.01 KB"
+    },
+    "ext\\data\\cache\\pyexpat.pyd": {
+      "sha256": "7593a435c3d527424738cb8289e49c06aa04d684b1cc8cbee19ca0f8d80e0864",
+      "size": 170776,
+      "modified": "2025-11-08T17:27:02.408204",
+      "size_human": "166.77 KB"
+    },
+    "ext\\data\\cache\\python.cat": {
+      "sha256": "d2fcbc1751e33b1a5d9936b52ae56d1ada72c6a1db8d76c9a6be9c82e0b37b2f",
+      "size": 642408,
+      "modified": "2025-11-08T17:27:02.267152",
+      "size_human": "627.35 KB"
+    },
+    "ext\\data\\cache\\python.exe": {
+      "sha256": "871ffae4b530bf6abd87f1035c922cca4473685dfd5f63e6bd26163828316be4",
+      "size": 101656,
+      "modified": "2025-11-08T17:27:02.403202",
+      "size_human": "99.27 KB"
+    },
+    "ext\\data\\cache\\python3.dll": {
+      "sha256": "d4cbdb9475bcb5af64ac6324cf863541e0738d794c2a6dc57b21f659346e6ce9",
+      "size": 66840,
+      "modified": "2025-11-08T17:27:02.428203",
+      "size_human": "65.27 KB"
+    },
+    "ext\\data\\cache\\python311._pth": {
+      "sha256": "02b2f742f5e886b166e36864ec07713e72e1cfc39f8dbef5934ad7ebfadafe46",
+      "size": 161,
+      "modified": "2025-11-08T17:27:02.482389",
+      "size_human": "161.00 B"
+    },
+    "ext\\data\\cache\\python311.dll": {
+      "sha256": "cacb59607d22cfafcf00819692b8af3ee97f6ab0607064ba7a7206ffa405e738",
+      "size": 4971288,
+      "modified": "2025-11-08T17:27:02.349154",
+      "size_human": "4.74 MB"
+    },
+    "ext\\data\\cache\\python311.zip": {
+      "sha256": "9b3687c018a40965923ab17a88e08bcc9478b395eb11a7bb04a43bceddf70a47",
+      "size": 4280776,
+      "modified": "2025-11-08T17:27:02.391202",
+      "size_human": "4.08 MB"
+    },
+    "ext\\data\\cache\\pythonw.exe": {
+      "sha256": "db57fbf86c8306809673be5850779b2dcda94bd8c36047840e27175cd30c257a",
+      "size": 100120,
+      "modified": "2025-11-08T17:27:02.304153",
+      "size_human": "97.77 KB"
+    },
+    "ext\\data\\cache\\Scripts\\pip.exe": {
+      "sha256": "213c8fff40b1bdb99a8bf270e23ae8200eb268ab2a0442bbf4ada6c236e9f8d2",
+      "size": 98124,
+      "modified": "2025-11-08T17:27:02.501390",
+      "size_human": "95.82 KB"
+    },
+    "ext\\data\\cache\\Scripts\\pip3.11.exe": {
+      "sha256": "213c8fff40b1bdb99a8bf270e23ae8200eb268ab2a0442bbf4ada6c236e9f8d2",
+      "size": 98124,
+      "modified": "2025-11-08T17:27:02.505389",
+      "size_human": "95.82 KB"
+    },
+    "ext\\data\\cache\\Scripts\\pip3.exe": {
+      "sha256": "213c8fff40b1bdb99a8bf270e23ae8200eb268ab2a0442bbf4ada6c236e9f8d2",
+      "size": 98124,
+      "modified": "2025-11-08T17:27:02.508390",
+      "size_human": "95.82 KB"
+    },
+    "ext\\data\\cache\\Scripts\\wheel.exe": {
+      "sha256": "e47af486fcdef0b03affa5d864cb818c54b9bd2f00c0e3ee7ea57933faffed71",
+      "size": 98111,
+      "modified": "2025-11-08T17:27:02.497427",
+      "size_human": "95.81 KB"
+    },
+    "ext\\data\\cache\\select.pyd": {
+      "sha256": "f71e0e04306b55ace241fc4dc401c51a1222dd62750ab854d2cecd7165df0f23",
+      "size": 27416,
+      "modified": "2025-11-08T17:27:02.257642",
+      "size_human": "26.77 KB"
+    },
+    "ext\\data\\cache\\sqlite3.dll": {
+      "sha256": "4ffef64cdf8cc9ec2dfa9fe3c318b9e141a95762ee07477750c4b83ad42bc3bd",
+      "size": 1241880,
+      "modified": "2025-11-08T17:27:02.297150",
+      "size_human": "1.18 MB"
+    },
+    "ext\\data\\cache\\unicodedata.pyd": {
+      "sha256": "054181c8bce8a11366e5df6b037e6a28f4ae4ff4cec8c2d6ae46a42aaa7b4d7a",
+      "size": 1132312,
+      "modified": "2025-11-08T17:27:02.253644",
+      "size_human": "1.08 MB"
+    },
+    "ext\\data\\cache\\vcruntime140.dll": {
+      "sha256": "70dd90f6ee01854cecf18b1b6d1dfbf30d33c5170ba07ad8b64721f0bdcc235e",
+      "size": 91000,
+      "modified": "2025-11-08T17:27:02.274153",
+      "size_human": "88.87 KB"
+    },
+    "ext\\data\\cache\\winsound.pyd": {
+      "sha256": "cf4a67f1c5bfbbca69873a0e28819ae2437035df1c7e2b921f43b7ac429af530",
+      "size": 27928,
+      "modified": "2025-11-08T17:27:02.352161",
+      "size_human": "27.27 KB"
+    },
+    "ext\\data\\shims\\chunks\\chunk-browser-init.js": {
+      "sha256": "f95aca9d10a40d213698fb8ccf5393a35873090ec90cc916e2fb59867b995c7b",
+      "size": 1478,
+      "modified": "2025-11-08T05:36:25.488496",
+      "size_human": "1.44 KB"
+    },
+    "ext\\data\\shims\\chunks\\chunk-browser-init.js.map": {
+      "sha256": "37834b79c4177c4019997ae723868d0ab37a917121564d9f0183c8b6bcc56f16",
+      "size": 3021,
+      "modified": "2025-11-08T05:36:25.483979",
+      "size_human": "2.95 KB"
+    },
+    "ext\\data\\shims\\chunks\\chunk-index.js": {
+      "sha256": "e2bb7cdd7e4d710412184d1991559da225a95722b8d85ea4e2bfb2d991d474ab",
+      "size": 84707,
+      "modified": "2025-11-08T05:36:25.488496",
+      "size_human": "82.72 KB"
+    },
+    "ext\\data\\shims\\chunks\\chunk-index.js.map": {
+      "sha256": "fa088e3c0c14265748fc388cc8a934888a69e477aeb58f28b3726f13fcdd4f27",
+      "size": 290167,
+      "modified": "2025-11-08T05:36:25.485974",
+      "size_human": "283.37 KB"
+    },
+    "ext\\data\\shims\\chunks\\chunk-logger.js": {
+      "sha256": "c4ec9104f2aad301c0e1d057ec0f30a076a8d39d2ca452d46fc48a716953a5ad",
+      "size": 1341,
+      "modified": "2025-11-08T05:36:25.487485",
+      "size_human": "1.31 KB"
+    },
+    "ext\\data\\shims\\chunks\\chunk-logger.js.map": {
+      "sha256": "d5dd1a9c1dea09c33d3fc615abf9271edcb664658f96afc6d7b4e76a442e948a",
+      "size": 3425,
+      "modified": "2025-11-08T05:36:25.488496",
+      "size_human": "3.34 KB"
+    },
+    "ext\\data\\shims\\chunks\\chunk-millennium-api.js": {
+      "sha256": "748aff934b5bbb431d580be1587f09f4dcd7579149b67a0368afff1a56d26d4f",
+      "size": 1947,
+      "modified": "2025-11-08T05:36:25.487485",
+      "size_human": "1.90 KB"
+    },
+    "ext\\data\\shims\\chunks\\chunk-millennium-api.js.map": {
+      "sha256": "ca3fbc2eef71903039744ca6f42095e7c3a1469add3c8a2191a432f869656c24",
+      "size": 6507,
+      "modified": "2025-11-08T05:36:25.484975",
+      "size_human": "6.35 KB"
+    },
+    "ext\\data\\shims\\chunks\\chunk-webpack.js": {
+      "sha256": "9ee6dd36a47dd32893b6a6978bbd04ede4edb20f3b479be6d647421d3aa8cdc7",
+      "size": 1779,
+      "modified": "2025-11-08T05:36:25.487485",
+      "size_human": "1.74 KB"
+    },
+    "ext\\data\\shims\\chunks\\chunk-webpack.js.map": {
+      "sha256": "0d8a92e2eee96afab410b2822242f4ed7879cdf58d66ae759850aa667741ec95",
+      "size": 6777,
+      "modified": "2025-11-08T05:36:25.484975",
+      "size_human": "6.62 KB"
+    },
+    "ext\\data\\shims\\millennium.js": {
+      "sha256": "6ce774eb650018158abe254e0f41047a93025314729b2aed211c302f5a0a3a92",
+      "size": 6082,
+      "modified": "2025-11-08T05:36:25.483979",
+      "size_human": "5.94 KB"
+    },
+    "ext\\data\\shims\\millennium.js.map": {
+      "sha256": "66f709fc1075c94d4998973ffd41aab71766bfb33c5afdb0c62ace0bc80d27b5",
+      "size": 32722,
+      "modified": "2025-11-08T05:36:25.484975",
+      "size_human": "31.96 KB"
+    },
+    "hid.dll": {
+      "sha256": "306d129b6de45b07ca82bc68be8d3b761347d35b7c49f916f125f61640a73817",
+      "size": 747704,
+      "modified": "2025-08-31T22:20:06",
+      "size_human": "730.18 KB"
+    },
+    "python311.dll": {
+      "sha256": "b83ab382c62501be6e8558f645f5335a271ba018db6ee6ee1edca6464ef3a03e",
+      "size": 5213184,
+      "modified": "2025-06-20T21:35:10",
+      "size_human": "4.97 MB"
+    },
+    "README-CHECKSUMS.md": {
+      "sha256": "575c5cb4e3ac748b4b974f40fe029bb67e76066fc6850f1346323956c4cf720a",
+      "size": 7045,
+      "modified": "2025-11-12T08:37:22.227538",
+      "size_human": "6.88 KB"
+    },
+    "rendereroverlay.dll": {
+      "sha256": "ac156a7e7305caddd44b61fe580f91cfc80bdc543ad55a340f6275319118bd3a",
+      "size": 4228608,
+      "modified": "2025-11-11T20:59:28.693599",
+      "size_human": "4.03 MB"
+    },
+    "run-checksums.bat": {
+      "sha256": "5b220b2972ff277f9919963e6a9ce04d6ff86dce60b5ae47ce046e76b2db8b0a",
+      "size": 1204,
+      "modified": "2025-11-12T08:37:34.040442",
+      "size_human": "1.18 KB"
+    },
+    "user32.dll": {
+      "sha256": "4710c813a3359eab61e5003080b426e29bb869971802bdf69566eba37bec68c3",
+      "size": 2339840,
+      "modified": "2025-11-11T20:59:01.278184",
+      "size_human": "2.23 MB"
+    }
+  }
+}
