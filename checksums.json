@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2025-11-20T21:56:21.479432",
+    "generated": "2025-11-20T22:04:26.381523",
     "base_directory": "C:\\Users\\xsantana\\Downloads\\hydra-3.6.3\\Depencies",
     "total_files": 8,
     "generator": "DGelectron Checksum Generator v1.0"
@@ -36,7 +36,7 @@
       "modified": "2025-11-12T08:38:43.147918",
       "size_human": "6.88 KB"
     },
-    "rendereroverlay.dll": {
+    "RendererOverlay.dll": {
       "sha256": "f6f637489706ad92e58d8090b402e498cdaf1929a17fceebadcaf3dae1da3fb3",
       "size": 4148224,
       "modified": "2025-11-20T21:55:25.786031",
