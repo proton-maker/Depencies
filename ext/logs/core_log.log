@@ -1,8 +1,20 @@
 
 
 
---------------------------------- [[2025-11-20 @ 8:32:3]] ---------------------------------
+--------------------------------- [[2025-11-20 @ 17:52:30]] ---------------------------------
 CORE Config file not found. Creating new config file: C:\Program Files (x86)\Steam/ext\config.json
+CORE Setting default settings
+CORE Verifying configuration settings...
+CORE skipping verify_config on non-Linux/macOS system
+CORE No themes to update!
+CORE No themes or plugins to update!
+CORE Checking for updates...
+CORE Millennium is up to date.
+CORE Loading Millennium-Core@v2.30.0
+
+
+
+--------------------------------- [[2025-11-20 @ 17:52:55]] ---------------------------------
 CORE Setting default settings
 CORE Verifying configuration settings...
 CORE skipping verify_config on non-Linux/macOS system
