@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated": "2025-11-20T22:04:26.381523",
-    "base_directory": "C:\\Users\\xsantana\\Downloads\\hydra-3.6.3\\Depencies",
-    "total_files": 8,
+    "generated": "2025-12-23T02:22:49.216436",
+    "base_directory": "C:\\Users\\xsantana\\Documents\\hydra-3.6.3\\Depencies",
+    "total_files": 10,
     "generator": "DGelectron Checksum Generator v1.0"
   },
   "files": {
@@ -37,9 +37,9 @@
       "size_human": "6.88 KB"
     },
     "RendererOverlay.dll": {
-      "sha256": "f6f637489706ad92e58d8090b402e498cdaf1929a17fceebadcaf3dae1da3fb3",
+      "sha256": "b97dc4a55ea63361583b9b3c81598d7e9611ef2ff45f4fbe37db825eefb14a3f",
       "size": 4148224,
-      "modified": "2025-11-20T21:55:25.786031",
+      "modified": "2025-12-23T02:17:50.974430",
       "size_human": "3.96 MB"
     },
     "run-checksums.bat": {
@@ -48,11 +48,23 @@
       "modified": "2025-11-12T08:38:43.202443",
       "size_human": "1.18 KB"
     },
+    "Steam.cfg": {
+      "sha256": "8d13a27912fc36bd1c67498835018242b938f2094dcf71fe369c74bf3d61ddd0",
+      "size": 29,
+      "modified": "2025-12-21T01:14:38.106252",
+      "size_human": "29.00 B"
+    },
     "user32.dll": {
-      "sha256": "e8751f6d62aa6e0470e17b123d77d3b166273cc3d457b022b2f6e710ce391a0a",
+      "sha256": "1e707b6edec3d4e065f68c94fbf4863661d8e6424d2a4020fd400dc50cadc262",
       "size": 2121728,
-      "modified": "2025-11-20T21:54:43.712520",
+      "modified": "2025-12-23T02:17:28.320559",
       "size_human": "2.02 MB"
+    },
+    "xinput1_4.dll": {
+      "sha256": "b0b9f8f6947f72ce5e21d9031c6f79388d57c4f2f4b0bfe3a8689cf84b3bb99e",
+      "size": 671736,
+      "modified": "2025-12-22T15:18:28",
+      "size_human": "655.99 KB"
     }
   }
 }
