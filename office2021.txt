@@ -1,22 +1,27 @@
 @echo off
 title Aktivasi Microsoft Office 2021 - Rizky Alfi&cls&(net session >nul 2>&1)
 
-:: Mengaktifkan dukungan ANSI color
+:: Mendapatkan karakter ESC untuk ANSI colors secara dinamis
+for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do (
+  set "ESC=%%b"
+)
+
+:: Set warna
+set "RED=%ESC%[91m"
+set "GREEN=%ESC%[92m"
+set "YELLOW=%ESC%[93m"
+set "BLUE=%ESC%[94m"
+set "MAGENTA=%ESC%[95m"
+set "CYAN=%ESC%[96m"
+set "WHITE=%ESC%[97m"
+set "RESET=%ESC%[0m"
+set "BOLD=%ESC%[1m"
+
+:: Pastikan dukungan Virtual Terminal diaktifkan
 for /F "tokens=4-5 delims=. " %%i in ('ver') do set VERSION=%%i.%%j
 if "%VERSION%" == "10.0" (
     reg add "HKCU\Console" /v VirtualTerminalLevel /t REG_DWORD /d 1 /f >nul 2>&1
 )
-
-:: Set warna
-set "RED=[91m"
-set "GREEN=[92m"
-set "YELLOW=[93m"
-set "BLUE=[94m"
-set "MAGENTA=[95m"
-set "CYAN=[96m"
-set "WHITE=[97m"
-set "RESET=[0m"
-set "BOLD=[1m"
 
 if %errorLevel% GTR 0 (
     echo.
@@ -29,116 +34,408 @@ if %errorLevel% GTR 0 (
 )
 
 echo.
-echo %CYAN%╔══════════════════════════════════════════════════════════════════════════╗%RESET%
-echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %BOLD%%YELLOW%   ██████╗ ███████╗███████╗██╗ ██████╗███████╗    ██████╗  ██╗%RESET%     %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %BOLD%%YELLOW%  ██╔═══██╗██╔════╝██╔════╝██║██╔════╝██╔════╝    ╚════██╗███║%RESET%     %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %BOLD%%YELLOW%  ██║   ██║█████╗  █████╗  ██║██║     █████╗       █████╔╝╚██║%RESET%     %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %BOLD%%YELLOW%  ██║   ██║██╔══╝  ██╔══╝  ██║██║     ██╔══╝      ██╔═══╝  ██║%RESET%     %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %BOLD%%YELLOW%  ╚██████╔╝██║     ██║     ██║╚██████╗███████╗    ███████╗ ██║%RESET%     %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %BOLD%%YELLOW%   ╚═════╝ ╚═╝     ╚═╝     ╚═╝ ╚═════╝╚══════╝    ╚══════╝ ╚═╝%RESET%     %CYAN%║%RESET%
-echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
-echo %CYAN%╠══════════════════════════════════════════════════════════════════════════╣%RESET%
-echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %GREEN%Project    : %WHITE%Aktivasi Microsoft Office 2021 Tanpa Software%RESET%          %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %GREEN%Owner      : %MAGENTA%%BOLD%Rizky Alfi%RESET%                                           %CYAN%║%RESET%
-echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
-echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
-echo %CYAN%╠══════════════════════════════════════════════════════════════════════════╣%RESET%
-echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %YELLOW%[!] DISCLAIMER:%RESET%                                                      %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %WHITE%    Ini BUKAN bajakan! Kode aktivasi ini adalah milik sah%RESET%            %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %WHITE%    %MAGENTA%%BOLD%Rizky Alfi%RESET% %WHITE%yang dibagikan untuk keperluan edukasi.%RESET%            %CYAN%║%RESET%
-echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
-echo %CYAN%╠══════════════════════════════════════════════════════════════════════════╣%RESET%
-echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %GREEN%#Supported Products:%RESET%                                                  %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %WHITE%  - Microsoft Office Standard 2021%RESET%                                   %CYAN%║%RESET%
-echo %CYAN%║%RESET%  %WHITE%  - Microsoft Office Professional Plus 2021%RESET%                          %CYAN%║%RESET%
-echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
-echo %CYAN%╚══════════════════════════════════════════════════════════════════════════╝%RESET%
+echo %CYAN%  +========================================================================+%RESET%
+echo %CYAN%  ^|%RESET%                                                                        %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %BOLD%%YELLOW%   _______   ________  ________  __   ______   ______   ____  __  %RESET%     %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %BOLD%%YELLOW%  /  __   \ /  _____/ /  _____/ /  ^| /  ____^| /  ____^| /_   ^|/  ^| %RESET%     %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %BOLD%%YELLOW%  ^| ^|  ^|  ^| ^| ^|___    ^| ^|___    ^|  ^| ^| ^|      ^| ^|__      /   ^|   ^| %RESET%     %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %BOLD%%YELLOW%  ^| ^|  ^|  ^| ^|  ___^|   ^|  ___^|   ^|  ^| ^| ^|      ^|  __^|    /   /^|   ^| %RESET%     %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %BOLD%%YELLOW%  ^| ^|__^|  ^| ^| ^|       ^| ^|       ^|  ^| ^| ^|____  ^| ^|____  /   /_^|   ^| %RESET%     %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %BOLD%%YELLOW%   \_____/  ^|_^|       ^|_^|       ^|__^|  \_____^|  \_____^| ^|_______^|__^| %RESET%     %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%                                                                        %CYAN%^|%RESET%
+echo %CYAN%  +========================================================================+%RESET%
+echo %CYAN%  ^|%RESET%                                                                        %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %GREEN%Project    : %WHITE%Aktivasi Microsoft Office 2021 Tanpa Software%RESET%        %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %GREEN%Owner      : %MAGENTA%%BOLD%Rizky Alfi%RESET%                                         %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%                                                                        %CYAN%^|%RESET%
+echo %CYAN%  +========================================================================+%RESET%
+echo %CYAN%  ^|%RESET%                                                                        %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %YELLOW%[!] DISCLAIMER:%RESET%                                                    %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %WHITE%    Ini BUKAN bajakan! Kode aktivasi ini adalah milik sah%RESET%          %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %WHITE%    %MAGENTA%%BOLD%Rizky Alfi%RESET% %WHITE%yang dibagikan untuk keperluan edukasi.%RESET%          %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%                                                                        %CYAN%^|%RESET%
+echo %CYAN%  +========================================================================+%RESET%
+echo %CYAN%  ^|%RESET%                                                                        %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %GREEN%#Supported Products:%RESET%                                                %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %WHITE%  - Microsoft Office Standard 2021%RESET%                                 %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %WHITE%  - Microsoft Office Professional Plus 2021%RESET%                        %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%                                                                        %CYAN%^|%RESET%
+echo %CYAN%  +========================================================================+%RESET%
 echo.
 echo %YELLOW%  [*] Memulai proses aktivasi, silahkan tunggu...%RESET%
 echo.
-(if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")&(if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")&tasklist /FI "IMAGENAME eq WINWORD.EXE" 2>NUL | find /I /N "WINWORD.EXE">NUL && taskkill /F /IM WINWORD.EXE >nul&tasklist /FI "IMAGENAME eq EXCEL.EXE" 2>NUL | find /I /N "EXCEL.EXE">NUL && taskkill /F /IM EXCEL.EXE >nul&tasklist /FI "IMAGENAME eq POWERPNT.EXE" 2>NUL | find /I /N "POWERPNT.EXE">NUL && taskkill /F /IM POWERPNT.EXE >nul&(REG DELETE "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Licensing" /f >nul 2>NUL)&(cscript //nologo ospp.vbs /setprt:1688 >nul || goto wshdisabled)&(for /f %%x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)&cscript //nologo ospp.vbs /unpkey:WFG99 >nul&cscript //nologo ospp.vbs /unpkey:6MWKP >nul&cscript //nologo ospp.vbs /unpkey:6F7TH >nul
+
+:: ============================================================================
+:: STEP 1: Cari lokasi Office dan ospp.vbs
+:: ============================================================================
+set "ESSION_PATH="
+
+:: Cek lokasi Office 64-bit
+if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" (
+    set "OFFICE_PATH=%ProgramFiles%\Microsoft Office\Office16"
+    goto :found_office
+)
+
+:: Cek lokasi Office 32-bit
+if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" (
+    set "OFFICE_PATH=%ProgramFiles(x86)%\Microsoft Office\Office16"
+    goto :found_office
+)
+
+:: Cek lokasi Office Click-to-Run 64-bit
+if exist "%ProgramFiles%\Microsoft Office\root\Office16\ospp.vbs" (
+    set "OFFICE_PATH=%ProgramFiles%\Microsoft Office\root\Office16"
+    goto :found_office
+)
+
+:: Cek lokasi Office Click-to-Run 32-bit
+if exist "%ProgramFiles(x86)%\Microsoft Office\root\Office16\ospp.vbs" (
+    set "OFFICE_PATH=%ProgramFiles(x86)%\Microsoft Office\root\Office16"
+    goto :found_office
+)
+
+:: Office tidak ditemukan
+goto :officenotfound
+
+:found_office
+echo %GREEN%  [+] Office ditemukan di: %OFFICE_PATH%%RESET%
+cd /d "%OFFICE_PATH%"
+echo.
+
+:: ============================================================================
+:: STEP 2: Pre-enable WSH sebelum melanjutkan (preventif)
+:: ============================================================================
+echo %YELLOW%  [*] Memastikan Windows Script Host aktif...%RESET%
+reg delete "HKCU\Software\Microsoft\Windows Script Host\Settings" /v Enabled /f >nul 2>&1
+reg delete "HKLM\Software\Microsoft\Windows Script Host\Settings" /v Enabled /f >nul 2>&1
+reg add "HKCU\Software\Microsoft\Windows Script Host\Settings" /v Enabled /t REG_DWORD /d 1 /f >nul 2>&1
+reg add "HKLM\Software\Microsoft\Windows Script Host\Settings" /v Enabled /t REG_DWORD /d 1 /f >nul 2>&1
+
+:: Reset file association untuk .vbs (jika rusak)
+assoc .vbs=VBSFile >nul 2>&1
+ftype VBSFile="%SystemRoot%\System32\WScript.exe" "%%1" %%* >nul 2>&1
+
+echo %GREEN%  [+] WSH telah dikonfigurasi%RESET%
+echo.
+
+:: ============================================================================
+:: STEP 3: Test WSH dengan command sederhana
+:: ============================================================================
+echo %YELLOW%  [*] Menguji Windows Script Host...%RESET%
+echo WScript.Echo "WSH_OK" > "%TEMP%\wsh_test.vbs"
+set "WSH_RESULT="
+set "WSH_ERROR="
+
+:: Capture both output and error
+cscript //nologo "%TEMP%\wsh_test.vbs" > "%TEMP%\wsh_out.txt" 2> "%TEMP%\wsh_err.txt"
+set "WSH_EXITCODE=%errorlevel%"
+
+:: Read output
+if exist "%TEMP%\wsh_out.txt" (
+    for /f "delims=" %%a in ('type "%TEMP%\wsh_out.txt" 2^>nul') do set "WSH_RESULT=%%a"
+)
+
+:: Read error
+if exist "%TEMP%\wsh_err.txt" (
+    for /f "delims=" %%a in ('type "%TEMP%\wsh_err.txt" 2^>nul') do set "WSH_ERROR=%%a"
+)
+
+:: Cleanup
+del "%TEMP%\wsh_test.vbs" >nul 2>&1
+del "%TEMP%\wsh_out.txt" >nul 2>&1
+del "%TEMP%\wsh_err.txt" >nul 2>&1
+
+if "%WSH_RESULT%"=="WSH_OK" (
+    echo %GREEN%  [+] Windows Script Host berfungsi dengan baik!%RESET%
+    echo.
+) else (
+    goto :wshfailed
+)
+
+:: ============================================================================
+:: STEP 4: Tutup aplikasi Office yang sedang berjalan
+:: ============================================================================
+tasklist /FI "IMAGENAME eq WINWORD.EXE" 2>NUL | find /I /N "WINWORD.EXE">NUL && taskkill /F /IM WINWORD.EXE >nul
+tasklist /FI "IMAGENAME eq EXCEL.EXE" 2>NUL | find /I /N "EXCEL.EXE">NUL && taskkill /F /IM EXCEL.EXE >nul
+tasklist /FI "IMAGENAME eq POWERPNT.EXE" 2>NUL | find /I /N "POWERPNT.EXE">NUL && taskkill /F /IM POWERPNT.EXE >nul
+tasklist /FI "IMAGENAME eq OUTLOOK.EXE" 2>NUL | find /I /N "OUTLOOK.EXE">NUL && taskkill /F /IM OUTLOOK.EXE >nul
+
+:: Hapus cache lisensi
+REG DELETE "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Licensing" /f >nul 2>NUL
+
+:: ============================================================================
+:: STEP 5: Set port dan install license
+:: ============================================================================
+echo %YELLOW%  [*] Mengonfigurasi lisensi Office...%RESET%
+cscript //nologo ospp.vbs /setprt:1688 >nul 2>&1
+if %errorlevel% NEQ 0 goto :scriptfailed
+
+:: Install license files
+for /f %%x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms 2^>nul') do (
+    cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul 2>&1
+)
+
+:: Hapus product key lama
+cscript //nologo ospp.vbs /unpkey:WFG99 >nul 2>&1
+cscript //nologo ospp.vbs /unpkey:6MWKP >nul 2>&1
+cscript //nologo ospp.vbs /unpkey:6F7TH >nul 2>&1
+echo %GREEN%  [+] Konfigurasi lisensi selesai%RESET%
+echo.
+
 :ucpkey
-cscript //nologo ospp.vbs /dstatus | find /i "Last 5 characters of installed product key" > temp.txt || goto skunpkey
+cscript //nologo ospp.vbs /dstatus 2>nul | find /i "Last 5 characters of installed product key" > temp.txt || goto skunpkey
 set /P bpkey= < temp.txt
 set pkeyt=%bpkey:~-5%
-echo.&cscript //nologo ospp.vbs /unpkey:%pkeyt% >nul&goto ucpkey
+echo.&cscript //nologo ospp.vbs /unpkey:%pkeyt% >nul 2>&1&goto ucpkey
+
 :skunpkey
 echo.
-echo %GREEN%╔══════════════════════════════════════════════════════════════════════════╗%RESET%
-echo %GREEN%║%RESET%  %YELLOW%[*] Mengaktivasi Office 2021 anda, silahkan tunggu...%RESET%                 %GREEN%║%RESET%
-echo %GREEN%╚══════════════════════════════════════════════════════════════════════════╝%RESET%
-cscript //nologo slmgr.vbs /ckms >nul&cscript //nologo ospp.vbs /setprt:1688 >nul&set i=1&cscript //nologo ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH >nul||goto notsupported
+echo %GREEN%  +========================================================================+%RESET%
+echo %GREEN%  ^|%RESET%  %YELLOW%[*] Mengaktivasi Office 2021 anda, silahkan tunggu...%RESET%               %GREEN%^|%RESET%
+echo %GREEN%  +========================================================================+%RESET%
+cscript //nologo slmgr.vbs /ckms >nul 2>&1
+cscript //nologo ospp.vbs /setprt:1688 >nul 2>&1
+set i=1
+cscript //nologo ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH >nul 2>&1
+if %errorlevel% NEQ 0 goto notsupported
+
 :skms
 if %i% GTR 8 (goto busy) else if %i% LEQ 5 (set KMS=s8.mshost.pro) else if %i% LEQ 8 (set KMS=e8.us.to)
-cscript //nologo ospp.vbs /sethst:%KMS% >nul
+cscript //nologo ospp.vbs /sethst:%KMS% >nul 2>&1
+
 :ato
 echo.
-echo %BLUE%══════════════════════════════════════════════════════════════════════════%RESET%
-cscript //nologo ospp.vbs /act >nul&timeout /t 5 >nul&echo.&cscript //nologo ospp.vbs /act | find /i "successful" && (
+echo %BLUE%  ==========================================================================%RESET%
+cscript //nologo ospp.vbs /act >nul 2>&1
+timeout /t 5 >nul
+echo.
+cscript //nologo ospp.vbs /act 2>nul | find /i "successful" && (
     echo.
-    echo %GREEN%╔══════════════════════════════════════════════════════════════════════════╗%RESET%
-    echo %GREEN%║%RESET%                                                                          %GREEN%║%RESET%
-    echo %GREEN%║%RESET%  %WHITE%%BOLD%  ███████╗██╗   ██╗ ██████╗ ██████╗███████╗███████╗███████╗██╗%RESET%       %GREEN%║%RESET%
-    echo %GREEN%║%RESET%  %WHITE%%BOLD%  ██╔════╝██║   ██║██╔════╝██╔════╝██╔════╝██╔════╝██╔════╝██║%RESET%       %GREEN%║%RESET%
-    echo %GREEN%║%RESET%  %WHITE%%BOLD%  ███████╗██║   ██║██║     ██║     █████╗  ███████╗███████╗██║%RESET%       %GREEN%║%RESET%
-    echo %GREEN%║%RESET%  %WHITE%%BOLD%  ╚════██║██║   ██║██║     ██║     ██╔══╝  ╚════██║╚════██║╚═╝%RESET%       %GREEN%║%RESET%
-    echo %GREEN%║%RESET%  %WHITE%%BOLD%  ███████║╚██████╔╝╚██████╗╚██████╗███████╗███████║███████║██╗%RESET%       %GREEN%║%RESET%
-    echo %GREEN%║%RESET%  %WHITE%%BOLD%  ╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝╚══════╝╚══════╝╚══════╝╚═╝%RESET%       %GREEN%║%RESET%
-    echo %GREEN%║%RESET%                                                                          %GREEN%║%RESET%
-    echo %GREEN%║%RESET%  %YELLOW%Aktivasi berhasil! Terima kasih telah menggunakan tool dari:%RESET%         %GREEN%║%RESET%
-    echo %GREEN%║%RESET%  %MAGENTA%%BOLD%                         Rizky Alfi%RESET%                                  %GREEN%║%RESET%
-    echo %GREEN%║%RESET%                                                                          %GREEN%║%RESET%
-    echo %GREEN%╚══════════════════════════════════════════════════════════════════════════╝%RESET%
+    echo %GREEN%  +========================================================================+%RESET%
+    echo %GREEN%  ^|%RESET%                                                                        %GREEN%^|%RESET%
+    echo %GREEN%  ^|%RESET%  %WHITE%%BOLD%   ______   __    __   ______   ______   ______   _______   _______ %RESET%   %GREEN%^|%RESET%
+    echo %GREEN%  ^|%RESET%  %WHITE%%BOLD%  /  ____^| /  ^|  /  ^| /  ____^| /  ____^| /  ____^| /  ____/  /  ____/ %RESET%   %GREEN%^|%RESET%
+    echo %GREEN%  ^|%RESET%  %WHITE%%BOLD%  ^|  (___  ^|  ^|  ^|  ^| ^|  ^|     ^|  ^|     ^|  ^|__    ^|  (___    ^|  (___   %RESET%   %GREEN%^|%RESET%
+    echo %GREEN%  ^|%RESET%  %WHITE%%BOLD%   \___   \ ^|  ^|  ^|  ^| ^|  ^|     ^|  ^|     ^|   __^|    \___   \    \___   \  %RESET%   %GREEN%^|%RESET%
+    echo %GREEN%  ^|%RESET%  %WHITE%%BOLD%   ____^|  ^| ^|  ^|__^|  ^| ^|  ^|____ ^|  ^|____ ^|  ^|____   ____^|  ^|   ____^|  ^| %RESET%   %GREEN%^|%RESET%
+    echo %GREEN%  ^|%RESET%  %WHITE%%BOLD%  ^|_______/  \______/   \_____^|  \_____^|  \_____^|  /______/   /______/  %RESET%   %GREEN%^|%RESET%
+    echo %GREEN%  ^|%RESET%                                                                        %GREEN%^|%RESET%
+    echo %GREEN%  ^|%RESET%  %YELLOW%Aktivasi berhasil! Terima kasih telah menggunakan tool dari:%RESET%       %GREEN%^|%RESET%
+    echo %GREEN%  ^|%RESET%  %MAGENTA%%BOLD%                         Rizky Alfi%RESET%                                %GREEN%^|%RESET%
+    echo %GREEN%  ^|%RESET%                                                                        %GREEN%^|%RESET%
+    echo %GREEN%  +========================================================================+%RESET%
     echo.
-    if errorlevel 2 exit
-) || (
-    echo %YELLOW%  Sepertinya butuh waktu lebih, silahkan tunggu...%RESET%
-    echo.
-    set /a i+=1
-    timeout /t 10 >nul
-    goto skms
+    goto halt
 )
+
+echo %YELLOW%  Sepertinya butuh waktu lebih, silahkan tunggu...%RESET%
+echo.
+set /a i+=1
+timeout /t 10 >nul
+goto skms
+
+:: ============================================================================
+:: ERROR HANDLERS
+:: ============================================================================
+
+:officenotfound
+echo.
+echo %RED%  +========================================================================+%RESET%
+echo %RED%  ^|%RESET%  %YELLOW%[!] ERROR - OFFICE TIDAK DITEMUKAN%RESET%                                 %RED%^|%RESET%
+echo %RED%  ^|%RESET%                                                                        %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  Microsoft Office 2021 tidak terdeteksi di komputer ini.%RESET%           %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  Pastikan Office sudah terinstall dengan benar.%RESET%                    %RED%^|%RESET%
+echo %RED%  ^|%RESET%                                                                        %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %CYAN%  Lokasi yang dicek:%RESET%                                                 %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  - Program Files\Microsoft Office\Office16%RESET%                        %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  - Program Files (x86)\Microsoft Office\Office16%RESET%                  %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  - Program Files\Microsoft Office\root\Office16%RESET%                   %RED%^|%RESET%
+echo %RED%  +========================================================================+%RESET%
+echo.
 goto halt
+
+:wshfailed
+echo.
+echo %RED%  +========================================================================+%RESET%
+echo %RED%  ^|%RESET%  %YELLOW%[!] ERROR - WINDOWS SCRIPT HOST GAGAL%RESET%                               %RED%^|%RESET%
+echo %RED%  ^|%RESET%                                                                        %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  Windows Script Host tidak bisa dijalankan.%RESET%                         %RED%^|%RESET%
+echo %RED%  +========================================================================+%RESET%
+echo.
+
+:: Tampilkan diagnostik detail
+echo %CYAN%  ========================= DIAGNOSTIK =================================%RESET%
+echo.
+
+:: Tampilkan error message jika ada
+if defined WSH_ERROR (
+    echo %RED%  [!] Error Message:%RESET%
+    echo %WHITE%      %WSH_ERROR%%RESET%
+    echo.
+)
+
+:: Tampilkan exit code
+echo %YELLOW%  [i] Exit Code: %WSH_EXITCODE%%RESET%
+echo.
+
+:: Cek registry WSH
+echo %YELLOW%  [i] Mengecek Registry WSH...%RESET%
+set "REG_HKCU="
+set "REG_HKLM="
+for /f "tokens=3" %%a in ('reg query "HKCU\Software\Microsoft\Windows Script Host\Settings" /v Enabled 2^>nul ^| find "Enabled"') do set "REG_HKCU=%%a"
+for /f "tokens=3" %%a in ('reg query "HKLM\Software\Microsoft\Windows Script Host\Settings" /v Enabled 2^>nul ^| find "Enabled"') do set "REG_HKLM=%%a"
+
+if defined REG_HKCU (
+    if "%REG_HKCU%"=="0x0" (
+        echo %RED%      HKCU\...\Enabled = 0 (DISABLED!)%RESET%
+    ) else (
+        echo %GREEN%      HKCU\...\Enabled = %REG_HKCU% (OK)%RESET%
+    )
+) else (
+    echo %GREEN%      HKCU\...\Enabled = tidak ada (OK - default enabled)%RESET%
+)
+
+if defined REG_HKLM (
+    if "%REG_HKLM%"=="0x0" (
+        echo %RED%      HKLM\...\Enabled = 0 (DISABLED!)%RESET%
+    ) else (
+        echo %GREEN%      HKLM\...\Enabled = %REG_HKLM% (OK)%RESET%
+    )
+) else (
+    echo %GREEN%      HKLM\...\Enabled = tidak ada (OK - default enabled)%RESET%
+)
+echo.
+
+:: Cek file association
+echo %YELLOW%  [i] Mengecek File Association .vbs...%RESET%
+set "VBS_ASSOC="
+for /f "tokens=2 delims==" %%a in ('assoc .vbs 2^>nul') do set "VBS_ASSOC=%%a"
+if defined VBS_ASSOC (
+    echo %WHITE%      .vbs = %VBS_ASSOC%%RESET%
+) else (
+    echo %RED%      .vbs = TIDAK TERDAFTAR!%RESET%
+)
+echo.
+
+:: Cek apakah cscript.exe ada
+echo %YELLOW%  [i] Mengecek cscript.exe...%RESET%
+if exist "%SystemRoot%\System32\cscript.exe" (
+    echo %GREEN%      cscript.exe = Ada di System32%RESET%
+) else (
+    echo %RED%      cscript.exe = TIDAK DITEMUKAN!%RESET%
+)
+echo.
+
+:: Cek apakah wscript.exe ada
+echo %YELLOW%  [i] Mengecek wscript.exe...%RESET%
+if exist "%SystemRoot%\System32\wscript.exe" (
+    echo %GREEN%      wscript.exe = Ada di System32%RESET%
+) else (
+    echo %RED%      wscript.exe = TIDAK DITEMUKAN!%RESET%
+)
+echo.
+
+echo %CYAN%  ======================================================================%RESET%
+echo.
+
+:: Tampilkan kemungkinan penyebab berdasarkan diagnostik
+echo %YELLOW%  [?] Kemungkinan Penyebab:%RESET%
+if defined WSH_ERROR (
+    echo %WSH_ERROR% | find /i "disabled" >nul && (
+        echo %WHITE%      - WSH dinonaktifkan via Group Policy atau Registry%RESET%
+    )
+    echo %WSH_ERROR% | find /i "access" >nul && (
+        echo %WHITE%      - Antivirus memblokir eksekusi script%RESET%
+    )
+    echo %WSH_ERROR% | find /i "not recognized" >nul && (
+        echo %WHITE%      - cscript.exe rusak atau tidak terdaftar%RESET%
+    )
+)
+echo %WHITE%      - Antivirus/Security software memblokir VBS%RESET%
+echo %WHITE%      - Windows Defender SmartScreen memblokir script%RESET%
+echo %WHITE%      - Group Policy menonaktifkan WSH%RESET%
+echo.
+
+echo %CYAN%  [*] Solusi yang bisa dicoba:%RESET%
+echo %WHITE%      1. Nonaktifkan antivirus sementara%RESET%
+echo %WHITE%      2. Jalankan CMD sebagai Administrator%RESET%
+echo %WHITE%      3. Ketik: reg delete "HKLM\Software\Microsoft\Windows Script Host\Settings" /f%RESET%
+echo %WHITE%      4. Restart komputer dan coba lagi%RESET%
+echo.
+goto halt
+
+:scriptfailed
+echo.
+echo %RED%  +========================================================================+%RESET%
+echo %RED%  ^|%RESET%  %YELLOW%[!] ERROR - SCRIPT GAGAL DIJALANKAN%RESET%                                 %RED%^|%RESET%
+echo %RED%  ^|%RESET%                                                                        %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  ospp.vbs gagal dijalankan. Mencoba metode alternatif...%RESET%           %RED%^|%RESET%
+echo %RED%  +========================================================================+%RESET%
+echo.
+
+:: Retry dengan metode tambahan
+echo %YELLOW%  [*] Mencoba perbaikan tambahan...%RESET%
+
+:: Method 1: Re-register wscript
+regsvr32 /s wshom.ocx >nul 2>&1
+regsvr32 /s scrrun.dll >nul 2>&1
+
+:: Method 2: Reset WSH via registry (lebih lengkap)
+reg delete "HKCU\Software\Microsoft\Windows Script Host\Settings" /f >nul 2>&1
+reg delete "HKLM\Software\Microsoft\Windows Script Host\Settings" /f >nul 2>&1
+
+:: Method 3: Pastikan wscript.exe bisa jalan
+"%SystemRoot%\System32\wscript.exe" //B //Nologo "%TEMP%\wsh_test.vbs" >nul 2>&1
+
+echo %GREEN%  [+] Perbaikan selesai, mencoba ulang...%RESET%
+timeout /t 2 >nul
+
+:: Retry
+cscript //nologo ospp.vbs /setprt:1688 >nul 2>&1
+if %errorlevel% EQU 0 (
+    echo %GREEN%  [+] Berhasil! Melanjutkan aktivasi...%RESET%
+    echo.
+    goto skunpkey
+)
+
+:: Masih gagal
+echo %RED%  [-] Metode alternatif juga gagal%RESET%
+goto wshfailed
+
 :notsupported
 echo.
-echo %RED%╔══════════════════════════════════════════════════════════════════════════╗%RESET%
-echo %RED%║%RESET%  %YELLOW%[!] ERROR%RESET%                                                            %RED%║%RESET%
-echo %RED%║%RESET%  %WHITE%  Maaf, Office 2021 anda tidak support.%RESET%                               %RED%║%RESET%
-echo %RED%╚══════════════════════════════════════════════════════════════════════════╝%RESET%
+echo %RED%  +========================================================================+%RESET%
+echo %RED%  ^|%RESET%  %YELLOW%[!] ERROR - VERSI TIDAK DIDUKUNG%RESET%                                   %RED%^|%RESET%
+echo %RED%  ^|%RESET%                                                                        %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  Versi Office anda tidak support dengan aktivator ini.%RESET%             %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  Tool ini hanya mendukung:%RESET%                                         %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  - Microsoft Office Standard 2021%RESET%                                  %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  - Microsoft Office Professional Plus 2021%RESET%                         %RED%^|%RESET%
+echo %RED%  +========================================================================+%RESET%
 echo.
 goto halt
-:wshdisabled
-echo.
-echo %RED%╔══════════════════════════════════════════════════════════════════════════╗%RESET%
-echo %RED%║%RESET%  %YELLOW%[!] ERROR%RESET%                                                            %RED%║%RESET%
-echo %RED%║%RESET%  %WHITE%  Aktivasi gagal karena Windows Script Host access is disabled.%RESET%       %RED%║%RESET%
-echo %RED%║%RESET%                                                                          %RED%║%RESET%
-echo %RED%║%RESET%  %CYAN%  Solusi: Ikuti panduan pada video tutorial yang terbuka%RESET%               %RED%║%RESET%
-echo %RED%║%RESET%  %CYAN%          untuk mengizinkan Windows Script.%RESET%                            %RED%║%RESET%
-echo %RED%╚══════════════════════════════════════════════════════════════════════════╝%RESET%
-echo.
-timeout /t 7 >nul&explorer "https://youtu.be/vqGMSQnWMIY"
-goto halt
+
 :busy
 echo.
-echo %RED%╔══════════════════════════════════════════════════════════════════════════╗%RESET%
-echo %RED%║%RESET%  %YELLOW%[!] ERROR%RESET%                                                            %RED%║%RESET%
-echo %RED%║%RESET%  %WHITE%  Aktivasi gagal karena koneksi internet anda tidak stabil.%RESET%           %RED%║%RESET%
-echo %RED%║%RESET%                                                                          %RED%║%RESET%
-echo %RED%║%RESET%  %CYAN%  Solusi: Sambungkan Laptop anda ke WiFi lain%RESET%                          %RED%║%RESET%
-echo %RED%║%RESET%  %CYAN%          kemudian ulangi lagi cara ini.%RESET%                               %RED%║%RESET%
-echo %RED%╚══════════════════════════════════════════════════════════════════════════╝%RESET%
+echo %RED%  +========================================================================+%RESET%
+echo %RED%  ^|%RESET%  %YELLOW%[!] ERROR - KONEKSI GAGAL%RESET%                                          %RED%^|%RESET%
+echo %RED%  ^|%RESET%                                                                        %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  Aktivasi gagal karena koneksi internet tidak stabil%RESET%               %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  atau server KMS sedang sibuk.%RESET%                                     %RED%^|%RESET%
+echo %RED%  ^|%RESET%                                                                        %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %CYAN%  Solusi:%RESET%                                                             %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  1. Periksa koneksi internet anda%RESET%                                  %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  2. Matikan VPN jika sedang aktif%RESET%                                  %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  3. Coba lagi beberapa saat kemudian%RESET%                               %RED%^|%RESET%
+echo %RED%  +========================================================================+%RESET%
 echo.
 goto halt
+
 :halt
 echo.
-echo %MAGENTA%══════════════════════════════════════════════════════════════════════════%RESET%
+echo %MAGENTA%  ==========================================================================%RESET%
 echo %WHITE%  Script by %MAGENTA%%BOLD%Rizky Alfi%RESET%
 echo %WHITE%  Ini BUKAN bajakan - Kode aktivasi milik %MAGENTA%%BOLD%Rizky Alfi%RESET%
-echo %MAGENTA%══════════════════════════════════════════════════════════════════════════%RESET%
+echo %MAGENTA%  ==========================================================================%RESET%
 echo.
 cd %~dp0&del temp.txt 2>nul&del %0 >nul&pause >nul
