@@ -1,0 +1,144 @@
+@echo off
+title Aktivasi Microsoft Office 2021 - Rizky Alfi&cls&(net session >nul 2>&1)
+
+:: Mengaktifkan dukungan ANSI color
+for /F "tokens=4-5 delims=. " %%i in ('ver') do set VERSION=%%i.%%j
+if "%VERSION%" == "10.0" (
+    reg add "HKCU\Console" /v VirtualTerminalLevel /t REG_DWORD /d 1 /f >nul 2>&1
+)
+
+:: Set warna
+set "RED=[91m"
+set "GREEN=[92m"
+set "YELLOW=[93m"
+set "BLUE=[94m"
+set "MAGENTA=[95m"
+set "CYAN=[96m"
+set "WHITE=[97m"
+set "RESET=[0m"
+set "BOLD=[1m"
+
+if %errorLevel% GTR 0 (
+    echo.
+    echo %RED%============================================================%RESET%
+    echo %YELLOW%  Aktivasi tidak bisa dilanjut!%RESET%
+    echo %WHITE%  Anda harus Run CMD as Administrator...%RESET%
+    echo %RED%============================================================%RESET%
+    echo.
+    goto halt
+)
+
+echo.
+echo %CYAN%╔══════════════════════════════════════════════════════════════════════════╗%RESET%
+echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %BOLD%%YELLOW%   ██████╗ ███████╗███████╗██╗ ██████╗███████╗    ██████╗  ██╗%RESET%     %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %BOLD%%YELLOW%  ██╔═══██╗██╔════╝██╔════╝██║██╔════╝██╔════╝    ╚════██╗███║%RESET%     %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %BOLD%%YELLOW%  ██║   ██║█████╗  █████╗  ██║██║     █████╗       █████╔╝╚██║%RESET%     %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %BOLD%%YELLOW%  ██║   ██║██╔══╝  ██╔══╝  ██║██║     ██╔══╝      ██╔═══╝  ██║%RESET%     %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %BOLD%%YELLOW%  ╚██████╔╝██║     ██║     ██║╚██████╗███████╗    ███████╗ ██║%RESET%     %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %BOLD%%YELLOW%   ╚═════╝ ╚═╝     ╚═╝     ╚═╝ ╚═════╝╚══════╝    ╚══════╝ ╚═╝%RESET%     %CYAN%║%RESET%
+echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
+echo %CYAN%╠══════════════════════════════════════════════════════════════════════════╣%RESET%
+echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %GREEN%Project    : %WHITE%Aktivasi Microsoft Office 2021 Tanpa Software%RESET%          %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %GREEN%Owner      : %MAGENTA%%BOLD%Rizky Alfi%RESET%                                           %CYAN%║%RESET%
+echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
+echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
+echo %CYAN%╠══════════════════════════════════════════════════════════════════════════╣%RESET%
+echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %YELLOW%[!] DISCLAIMER:%RESET%                                                      %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %WHITE%    Ini BUKAN bajakan! Kode aktivasi ini adalah milik sah%RESET%            %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %WHITE%    %MAGENTA%%BOLD%Rizky Alfi%RESET% %WHITE%yang dibagikan untuk keperluan edukasi.%RESET%            %CYAN%║%RESET%
+echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
+echo %CYAN%╠══════════════════════════════════════════════════════════════════════════╣%RESET%
+echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %GREEN%#Supported Products:%RESET%                                                  %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %WHITE%  - Microsoft Office Standard 2021%RESET%                                   %CYAN%║%RESET%
+echo %CYAN%║%RESET%  %WHITE%  - Microsoft Office Professional Plus 2021%RESET%                          %CYAN%║%RESET%
+echo %CYAN%║%RESET%                                                                          %CYAN%║%RESET%
+echo %CYAN%╚══════════════════════════════════════════════════════════════════════════╝%RESET%
+echo.
+echo %YELLOW%  [*] Memulai proses aktivasi, silahkan tunggu...%RESET%
+echo.
+(if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")&(if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")&tasklist /FI "IMAGENAME eq WINWORD.EXE" 2>NUL | find /I /N "WINWORD.EXE">NUL && taskkill /F /IM WINWORD.EXE >nul&tasklist /FI "IMAGENAME eq EXCEL.EXE" 2>NUL | find /I /N "EXCEL.EXE">NUL && taskkill /F /IM EXCEL.EXE >nul&tasklist /FI "IMAGENAME eq POWERPNT.EXE" 2>NUL | find /I /N "POWERPNT.EXE">NUL && taskkill /F /IM POWERPNT.EXE >nul&(REG DELETE "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Licensing" /f >nul 2>NUL)&(cscript //nologo ospp.vbs /setprt:1688 >nul || goto wshdisabled)&(for /f %%x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)&cscript //nologo ospp.vbs /unpkey:WFG99 >nul&cscript //nologo ospp.vbs /unpkey:6MWKP >nul&cscript //nologo ospp.vbs /unpkey:6F7TH >nul
+:ucpkey
+cscript //nologo ospp.vbs /dstatus | find /i "Last 5 characters of installed product key" > temp.txt || goto skunpkey
+set /P bpkey= < temp.txt
+set pkeyt=%bpkey:~-5%
+echo.&cscript //nologo ospp.vbs /unpkey:%pkeyt% >nul&goto ucpkey
+:skunpkey
+echo.
+echo %GREEN%╔══════════════════════════════════════════════════════════════════════════╗%RESET%
+echo %GREEN%║%RESET%  %YELLOW%[*] Mengaktivasi Office 2021 anda, silahkan tunggu...%RESET%                 %GREEN%║%RESET%
+echo %GREEN%╚══════════════════════════════════════════════════════════════════════════╝%RESET%
+cscript //nologo slmgr.vbs /ckms >nul&cscript //nologo ospp.vbs /setprt:1688 >nul&set i=1&cscript //nologo ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH >nul||goto notsupported
+:skms
+if %i% GTR 8 (goto busy) else if %i% LEQ 5 (set KMS=s8.mshost.pro) else if %i% LEQ 8 (set KMS=e8.us.to)
+cscript //nologo ospp.vbs /sethst:%KMS% >nul
+:ato
+echo.
+echo %BLUE%══════════════════════════════════════════════════════════════════════════%RESET%
+cscript //nologo ospp.vbs /act >nul&timeout /t 5 >nul&echo.&cscript //nologo ospp.vbs /act | find /i "successful" && (
+    echo.
+    echo %GREEN%╔══════════════════════════════════════════════════════════════════════════╗%RESET%
+    echo %GREEN%║%RESET%                                                                          %GREEN%║%RESET%
+    echo %GREEN%║%RESET%  %WHITE%%BOLD%  ███████╗██╗   ██╗ ██████╗ ██████╗███████╗███████╗███████╗██╗%RESET%       %GREEN%║%RESET%
+    echo %GREEN%║%RESET%  %WHITE%%BOLD%  ██╔════╝██║   ██║██╔════╝██╔════╝██╔════╝██╔════╝██╔════╝██║%RESET%       %GREEN%║%RESET%
+    echo %GREEN%║%RESET%  %WHITE%%BOLD%  ███████╗██║   ██║██║     ██║     █████╗  ███████╗███████╗██║%RESET%       %GREEN%║%RESET%
+    echo %GREEN%║%RESET%  %WHITE%%BOLD%  ╚════██║██║   ██║██║     ██║     ██╔══╝  ╚════██║╚════██║╚═╝%RESET%       %GREEN%║%RESET%
+    echo %GREEN%║%RESET%  %WHITE%%BOLD%  ███████║╚██████╔╝╚██████╗╚██████╗███████╗███████║███████║██╗%RESET%       %GREEN%║%RESET%
+    echo %GREEN%║%RESET%  %WHITE%%BOLD%  ╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝╚══════╝╚══════╝╚══════╝╚═╝%RESET%       %GREEN%║%RESET%
+    echo %GREEN%║%RESET%                                                                          %GREEN%║%RESET%
+    echo %GREEN%║%RESET%  %YELLOW%Aktivasi berhasil! Terima kasih telah menggunakan tool dari:%RESET%         %GREEN%║%RESET%
+    echo %GREEN%║%RESET%  %MAGENTA%%BOLD%                         Rizky Alfi%RESET%                                  %GREEN%║%RESET%
+    echo %GREEN%║%RESET%                                                                          %GREEN%║%RESET%
+    echo %GREEN%╚══════════════════════════════════════════════════════════════════════════╝%RESET%
+    echo.
+    if errorlevel 2 exit
+) || (
+    echo %YELLOW%  Sepertinya butuh waktu lebih, silahkan tunggu...%RESET%
+    echo.
+    set /a i+=1
+    timeout /t 10 >nul
+    goto skms
+)
+goto halt
+:notsupported
+echo.
+echo %RED%╔══════════════════════════════════════════════════════════════════════════╗%RESET%
+echo %RED%║%RESET%  %YELLOW%[!] ERROR%RESET%                                                            %RED%║%RESET%
+echo %RED%║%RESET%  %WHITE%  Maaf, Office 2021 anda tidak support.%RESET%                               %RED%║%RESET%
+echo %RED%╚══════════════════════════════════════════════════════════════════════════╝%RESET%
+echo.
+goto halt
+:wshdisabled
+echo.
+echo %RED%╔══════════════════════════════════════════════════════════════════════════╗%RESET%
+echo %RED%║%RESET%  %YELLOW%[!] ERROR%RESET%                                                            %RED%║%RESET%
+echo %RED%║%RESET%  %WHITE%  Aktivasi gagal karena Windows Script Host access is disabled.%RESET%       %RED%║%RESET%
+echo %RED%║%RESET%                                                                          %RED%║%RESET%
+echo %RED%║%RESET%  %CYAN%  Solusi: Ikuti panduan pada video tutorial yang terbuka%RESET%               %RED%║%RESET%
+echo %RED%║%RESET%  %CYAN%          untuk mengizinkan Windows Script.%RESET%                            %RED%║%RESET%
+echo %RED%╚══════════════════════════════════════════════════════════════════════════╝%RESET%
+echo.
+timeout /t 7 >nul&explorer "https://youtu.be/vqGMSQnWMIY"
+goto halt
+:busy
+echo.
+echo %RED%╔══════════════════════════════════════════════════════════════════════════╗%RESET%
+echo %RED%║%RESET%  %YELLOW%[!] ERROR%RESET%                                                            %RED%║%RESET%
+echo %RED%║%RESET%  %WHITE%  Aktivasi gagal karena koneksi internet anda tidak stabil.%RESET%           %RED%║%RESET%
+echo %RED%║%RESET%                                                                          %RED%║%RESET%
+echo %RED%║%RESET%  %CYAN%  Solusi: Sambungkan Laptop anda ke WiFi lain%RESET%                          %RED%║%RESET%
+echo %RED%║%RESET%  %CYAN%          kemudian ulangi lagi cara ini.%RESET%                               %RED%║%RESET%
+echo %RED%╚══════════════════════════════════════════════════════════════════════════╝%RESET%
+echo.
+goto halt
+:halt
+echo.
+echo %MAGENTA%══════════════════════════════════════════════════════════════════════════%RESET%
+echo %WHITE%  Script by %MAGENTA%%BOLD%Rizky Alfi%RESET%
+echo %WHITE%  Ini BUKAN bajakan - Kode aktivasi milik %MAGENTA%%BOLD%Rizky Alfi%RESET%
+echo %MAGENTA%══════════════════════════════════════════════════════════════════════════%RESET%
+echo.
+cd %~dp0&del temp.txt 2>nul&del %0 >nul&pause >nul
