@@ -1,5 +1,5 @@
 @echo off
-title Aktivasi Microsoft Office 2021 - Rizky Alfi&cls&(net session >nul 2>&1)
+title Aktivasi Microsoft Office 2021 ^& 365 - Rizky Alfi&cls&(net session >nul 2>&1)
 
 :: Mendapatkan karakter ESC untuk ANSI colors secara dinamis
 for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do (
@@ -45,7 +45,7 @@ echo %CYAN%  ^|%RESET%  %BOLD%%YELLOW%   \_____/  ^|_^|       ^|_^|       ^|__^|
 echo %CYAN%  ^|%RESET%                                                                        %CYAN%^|%RESET%
 echo %CYAN%  +========================================================================+%RESET%
 echo %CYAN%  ^|%RESET%                                                                        %CYAN%^|%RESET%
-echo %CYAN%  ^|%RESET%  %GREEN%Project    : %WHITE%Aktivasi Microsoft Office 2021 Tanpa Software%RESET%        %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %GREEN%Project    : %WHITE%Aktivasi Microsoft Office 2021 ^& 365%RESET%                  %CYAN%^|%RESET%
 echo %CYAN%  ^|%RESET%  %GREEN%Owner      : %MAGENTA%%BOLD%Rizky Alfi%RESET%                                         %CYAN%^|%RESET%
 echo %CYAN%  ^|%RESET%                                                                        %CYAN%^|%RESET%
 echo %CYAN%  +========================================================================+%RESET%
@@ -59,6 +59,7 @@ echo %CYAN%  ^|%RESET%                                                          
 echo %CYAN%  ^|%RESET%  %GREEN%#Supported Products:%RESET%                                                %CYAN%^|%RESET%
 echo %CYAN%  ^|%RESET%  %WHITE%  - Microsoft Office Standard 2021%RESET%                                 %CYAN%^|%RESET%
 echo %CYAN%  ^|%RESET%  %WHITE%  - Microsoft Office Professional Plus 2021%RESET%                        %CYAN%^|%RESET%
+echo %CYAN%  ^|%RESET%  %WHITE%  - Microsoft Office 365%RESET%                                           %CYAN%^|%RESET%
 echo %CYAN%  ^|%RESET%                                                                        %CYAN%^|%RESET%
 echo %CYAN%  +========================================================================+%RESET%
 echo.
@@ -122,35 +123,35 @@ echo.
 :: STEP 3: Test WSH dengan command sederhana
 :: ============================================================================
 echo %YELLOW%  [*] Menguji Windows Script Host...%RESET%
-echo WScript.Echo "WSH_OK" > "%TEMP%\wsh_test.vbs"
+echo WScript.Echo "WSH_OK" > "%~dp0wsh_test.vbs"
 set "WSH_RESULT="
 set "WSH_ERROR="
 
-:: Capture both output and error
-cscript //nologo "%TEMP%\wsh_test.vbs" > "%TEMP%\wsh_out.txt" 2> "%TEMP%\wsh_err.txt"
+:: Define default cscript command
+set "CSCRIPT_CMD=cscript //nologo"
+
+:: Capture output directly to screen (no redirection for debugging)
+%CSCRIPT_CMD% "%~dp0wsh_test.vbs"
+if %errorlevel% EQU 0 goto :wsh_success
+
+:: First attempt failed, try alternative logic (forcing vbscript engine)
+echo %YELLOW%  [!] Metode standar gagal, mencoba metode alternatif ^(Force Engine^)...%RESET%
+set "CSCRIPT_CMD=cscript //nologo //E:vbscript"
+%CSCRIPT_CMD% "%~dp0wsh_test.vbs"
+if %errorlevel% EQU 0 (
+    echo %GREEN%  [+] Metode alternatif berhasil!%RESET%
+    goto :wsh_success
+)
+
+:: Both methods failed
 set "WSH_EXITCODE=%errorlevel%"
+del "%~dp0wsh_test.vbs" >nul 2>&1
+goto :wshfailed
 
-:: Read output
-if exist "%TEMP%\wsh_out.txt" (
-    for /f "delims=" %%a in ('type "%TEMP%\wsh_out.txt" 2^>nul') do set "WSH_RESULT=%%a"
-)
-
-:: Read error
-if exist "%TEMP%\wsh_err.txt" (
-    for /f "delims=" %%a in ('type "%TEMP%\wsh_err.txt" 2^>nul') do set "WSH_ERROR=%%a"
-)
-
-:: Cleanup
-del "%TEMP%\wsh_test.vbs" >nul 2>&1
-del "%TEMP%\wsh_out.txt" >nul 2>&1
-del "%TEMP%\wsh_err.txt" >nul 2>&1
-
-if "%WSH_RESULT%"=="WSH_OK" (
-    echo %GREEN%  [+] Windows Script Host berfungsi dengan baik!%RESET%
-    echo.
-) else (
-    goto :wshfailed
-)
+:wsh_success
+echo %GREEN%  [+] Windows Script Host berfungsi dengan baik!%RESET%
+echo.
+del "%~dp0wsh_test.vbs" >nul 2>&1
 
 :: ============================================================================
 :: STEP 4: Tutup aplikasi Office yang sedang berjalan
@@ -167,49 +168,49 @@ REG DELETE "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Licensing" /
 :: STEP 5: Set port dan install license
 :: ============================================================================
 echo %YELLOW%  [*] Mengonfigurasi lisensi Office...%RESET%
-cscript //nologo ospp.vbs /setprt:1688 >nul 2>&1
+%CSCRIPT_CMD% ospp.vbs /setprt:1688 >nul 2>&1
 if %errorlevel% NEQ 0 goto :scriptfailed
 
 :: Install license files
-for /f %%x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms 2^>nul') do (
-    cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul 2>&1
+for /f %%x in ('dir /b ..\root\Licenses16\ProPlus*VL_KMS*.xrm-ms 2^>nul') do (
+    %CSCRIPT_CMD% ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul 2>&1
 )
 
 :: Hapus product key lama
-cscript //nologo ospp.vbs /unpkey:WFG99 >nul 2>&1
-cscript //nologo ospp.vbs /unpkey:6MWKP >nul 2>&1
-cscript //nologo ospp.vbs /unpkey:6F7TH >nul 2>&1
+%CSCRIPT_CMD% ospp.vbs /unpkey:WFG99 >nul 2>&1
+%CSCRIPT_CMD% ospp.vbs /unpkey:6MWKP >nul 2>&1
+%CSCRIPT_CMD% ospp.vbs /unpkey:6F7TH >nul 2>&1
 echo %GREEN%  [+] Konfigurasi lisensi selesai%RESET%
 echo.
 
 :ucpkey
-cscript //nologo ospp.vbs /dstatus 2>nul | find /i "Last 5 characters of installed product key" > temp.txt || goto skunpkey
+%CSCRIPT_CMD% ospp.vbs /dstatus 2>nul | find /i "Last 5 characters of installed product key" > temp.txt || goto skunpkey
 set /P bpkey= < temp.txt
 set pkeyt=%bpkey:~-5%
-echo.&cscript //nologo ospp.vbs /unpkey:%pkeyt% >nul 2>&1&goto ucpkey
+echo.&%CSCRIPT_CMD% ospp.vbs /unpkey:%pkeyt% >nul 2>&1&goto ucpkey
 
 :skunpkey
 echo.
 echo %GREEN%  +========================================================================+%RESET%
-echo %GREEN%  ^|%RESET%  %YELLOW%[*] Mengaktivasi Office 2021 anda, silahkan tunggu...%RESET%               %GREEN%^|%RESET%
+echo %GREEN%  ^|%RESET%  %YELLOW%[*] Mengaktivasi Office anda, silahkan tunggu...%RESET%                    %GREEN%^|%RESET%
 echo %GREEN%  +========================================================================+%RESET%
-cscript //nologo slmgr.vbs /ckms >nul 2>&1
-cscript //nologo ospp.vbs /setprt:1688 >nul 2>&1
+%CSCRIPT_CMD% slmgr.vbs /ckms >nul 2>&1
+%CSCRIPT_CMD% ospp.vbs /setprt:1688 >nul 2>&1
 set i=1
-cscript //nologo ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH >nul 2>&1
+%CSCRIPT_CMD% ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH >nul 2>&1
 if %errorlevel% NEQ 0 goto notsupported
 
 :skms
 if %i% GTR 8 (goto busy) else if %i% LEQ 5 (set KMS=s8.mshost.pro) else if %i% LEQ 8 (set KMS=e8.us.to)
-cscript //nologo ospp.vbs /sethst:%KMS% >nul 2>&1
+%CSCRIPT_CMD% ospp.vbs /sethst:%KMS% >nul 2>&1
 
 :ato
 echo.
 echo %BLUE%  ==========================================================================%RESET%
-cscript //nologo ospp.vbs /act >nul 2>&1
+%CSCRIPT_CMD% ospp.vbs /act >nul 2>&1
 timeout /t 5 >nul
 echo.
-cscript //nologo ospp.vbs /act 2>nul | find /i "successful" && (
+%CSCRIPT_CMD% ospp.vbs /act 2>nul | find /i "successful" && (
     echo.
     echo %GREEN%  +========================================================================+%RESET%
     echo %GREEN%  ^|%RESET%                                                                        %GREEN%^|%RESET%
@@ -268,9 +269,14 @@ echo %CYAN%  ========================= DIAGNOSTIK ==============================
 echo.
 
 :: Tampilkan error message jika ada
-if defined WSH_ERROR (
-    echo %RED%  [!] Error Message:%RESET%
-    echo %WHITE%      %WSH_ERROR%%RESET%
+if exist "%TEMP%\wsh_err.txt" (
+    echo %RED%  [!] Error Log ^(%TEMP%\wsh_err.txt^):%RESET%
+    type "%TEMP%\wsh_err.txt"
+    echo.
+)
+if exist "%TEMP%\wsh_out.txt" (
+    echo %YELLOW%  [!] Output Log ^(%TEMP%\wsh_out.txt^):%RESET%
+    type "%TEMP%\wsh_out.txt"
     echo.
 )
 
@@ -286,23 +292,15 @@ for /f "tokens=3" %%a in ('reg query "HKCU\Software\Microsoft\Windows Script Hos
 for /f "tokens=3" %%a in ('reg query "HKLM\Software\Microsoft\Windows Script Host\Settings" /v Enabled 2^>nul ^| find "Enabled"') do set "REG_HKLM=%%a"
 
 if defined REG_HKCU (
-    if "%REG_HKCU%"=="0x0" (
-        echo %RED%      HKCU\...\Enabled = 0 (DISABLED!)%RESET%
-    ) else (
-        echo %GREEN%      HKCU\...\Enabled = %REG_HKCU% (OK)%RESET%
-    )
+    echo %GREEN%      HKCU\...\Enabled = "%REG_HKCU%"%RESET%
 ) else (
-    echo %GREEN%      HKCU\...\Enabled = tidak ada (OK - default enabled)%RESET%
+    echo %GREEN%      HKCU\...\Enabled = tidak ada ^(OK - default enabled^)%RESET%
 )
 
 if defined REG_HKLM (
-    if "%REG_HKLM%"=="0x0" (
-        echo %RED%      HKLM\...\Enabled = 0 (DISABLED!)%RESET%
-    ) else (
-        echo %GREEN%      HKLM\...\Enabled = %REG_HKLM% (OK)%RESET%
-    )
+    echo %GREEN%      HKLM\...\Enabled = "%REG_HKLM%"%RESET%
 ) else (
-    echo %GREEN%      HKLM\...\Enabled = tidak ada (OK - default enabled)%RESET%
+    echo %GREEN%      HKLM\...\Enabled = tidak ada ^(OK - default enabled^)%RESET%
 )
 echo.
 
@@ -391,7 +389,7 @@ echo %GREEN%  [+] Perbaikan selesai, mencoba ulang...%RESET%
 timeout /t 2 >nul
 
 :: Retry
-cscript //nologo ospp.vbs /setprt:1688 >nul 2>&1
+%CSCRIPT_CMD% ospp.vbs /setprt:1688 >nul 2>&1
 if %errorlevel% EQU 0 (
     echo %GREEN%  [+] Berhasil! Melanjutkan aktivasi...%RESET%
     echo.
@@ -411,6 +409,7 @@ echo %RED%  ^|%RESET%  %WHITE%  Versi Office anda tidak support dengan aktivator
 echo %RED%  ^|%RESET%  %WHITE%  Tool ini hanya mendukung:%RESET%                                         %RED%^|%RESET%
 echo %RED%  ^|%RESET%  %WHITE%  - Microsoft Office Standard 2021%RESET%                                  %RED%^|%RESET%
 echo %RED%  ^|%RESET%  %WHITE%  - Microsoft Office Professional Plus 2021%RESET%                         %RED%^|%RESET%
+echo %RED%  ^|%RESET%  %WHITE%  - Microsoft Office 365%RESET%                                            %RED%^|%RESET%
 echo %RED%  +========================================================================+%RESET%
 echo.
 goto halt
@@ -438,4 +437,4 @@ echo %WHITE%  Script by %MAGENTA%%BOLD%Rizky Alfi%RESET%
 echo %WHITE%  Ini BUKAN bajakan - Kode aktivasi milik %MAGENTA%%BOLD%Rizky Alfi%RESET%
 echo %MAGENTA%  ==========================================================================%RESET%
 echo.
-cd %~dp0&del temp.txt 2>nul&del %0 >nul&pause >nul
+cd %~dp0&del temp.txt 2>nul&pause >nul
