@@ -1,70 +1,82 @@
 {
   "metadata": {
-    "generated": "2025-12-23T02:22:49.216436",
-    "base_directory": "C:\\Users\\xsantana\\Documents\\hydra-3.6.3\\Depencies",
-    "total_files": 10,
+    "generated": "2026-05-07T03:29:36.187948",
+    "base_directory": "C:\\Users\\kenwi\\Documents\\GitHub\\Depencies",
+    "total_files": 12,
     "generator": "DGelectron Checksum Generator v1.0"
   },
   "files": {
     ".gitattributes": {
-      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
-      "size": 66,
-      "modified": "2025-11-12T08:31:25.453270",
-      "size_human": "66.00 B"
+      "sha256": "d8fb0de4792538f93822b2c0d235604921299d5e54a3d6ec7a6cb34536e8bf1e",
+      "size": 68,
+      "modified": "2026-04-30T18:54:40.552347",
+      "size_human": "68.00 B"
+    },
+    "dwmapi.dll": {
+      "sha256": "1ce49ed63af004ad37a4d2921a5659a17001c4c0026d6245fcc0d543e9c265d0",
+      "size": 136120,
+      "modified": "2026-05-07T02:48:47.581212",
+      "size_human": "132.93 KB"
     },
     "hid.dll": {
       "sha256": "306d129b6de45b07ca82bc68be8d3b761347d35b7c49f916f125f61640a73817",
       "size": 747704,
-      "modified": "2025-08-31T22:20:06",
+      "modified": "2026-04-30T18:54:40.599257",
       "size_human": "730.18 KB"
     },
     "manifest.yaml": {
       "sha256": "38a6c79b99a8e3963ba91e6550ff4297c906722ddd817f78f95bed17cbcf01ea",
       "size": 22728981,
-      "modified": "2025-11-20T08:47:06.243928",
+      "modified": "2026-04-30T18:54:40.677382",
       "size_human": "21.68 MB"
+    },
+    "office2021.txt": {
+      "sha256": "4f24be3a1beeff4187cb4705519ae1048db8e28ced8394a69553055d0544cd57",
+      "size": 22177,
+      "modified": "2026-04-30T18:54:40.677382",
+      "size_human": "21.66 KB"
     },
     "python311.dll": {
       "sha256": "b83ab382c62501be6e8558f645f5335a271ba018db6ee6ee1edca6464ef3a03e",
       "size": 5213184,
-      "modified": "2025-06-20T21:35:10",
+      "modified": "2026-04-30T18:54:40.724259",
       "size_human": "4.97 MB"
     },
     "README-CHECKSUMS.md": {
       "sha256": "575c5cb4e3ac748b4b974f40fe029bb67e76066fc6850f1346323956c4cf720a",
       "size": 7045,
-      "modified": "2025-11-12T08:38:43.147918",
+      "modified": "2026-04-30T18:54:40.552347",
       "size_human": "6.88 KB"
     },
     "RendererOverlay.dll": {
       "sha256": "b97dc4a55ea63361583b9b3c81598d7e9611ef2ff45f4fbe37db825eefb14a3f",
       "size": 4148224,
-      "modified": "2025-12-23T02:17:50.974430",
+      "modified": "2026-04-30T18:54:40.583634",
       "size_human": "3.96 MB"
     },
     "run-checksums.bat": {
       "sha256": "5b220b2972ff277f9919963e6a9ce04d6ff86dce60b5ae47ce046e76b2db8b0a",
       "size": 1204,
-      "modified": "2025-11-12T08:38:43.202443",
+      "modified": "2026-04-30T18:54:40.724259",
       "size_human": "1.18 KB"
     },
     "Steam.cfg": {
       "sha256": "8d13a27912fc36bd1c67498835018242b938f2094dcf71fe369c74bf3d61ddd0",
       "size": 29,
-      "modified": "2025-12-21T01:14:38.106252",
+      "modified": "2026-04-30T18:54:40.583634",
       "size_human": "29.00 B"
     },
     "user32.dll": {
       "sha256": "1e707b6edec3d4e065f68c94fbf4863661d8e6424d2a4020fd400dc50cadc262",
       "size": 2121728,
-      "modified": "2025-12-23T02:17:28.320559",
+      "modified": "2026-04-30T18:54:40.739881",
       "size_human": "2.02 MB"
     },
     "xinput1_4.dll": {
-      "sha256": "b0b9f8f6947f72ce5e21d9031c6f79388d57c4f2f4b0bfe3a8689cf84b3bb99e",
-      "size": 671736,
-      "modified": "2025-12-22T15:18:28",
-      "size_human": "655.99 KB"
+      "sha256": "ddb1f0909c7092f06890674f90b5d4f1198724b05b4bf1e656b4063897340243",
+      "size": 673720,
+      "modified": "2026-05-07T02:48:46.833173",
+      "size_human": "657.93 KB"
     }
   }
 }
