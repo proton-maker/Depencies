@@ -2,6 +2,25 @@
 
 Python script untuk generate dan manage file checksums menggunakan JSON format. Ini menyediakan cara praktis dan aman untuk tracking file updates dan verifikasi integritas.
 
+## OpenSteamTool DLL publish (DGLauncher)
+
+DGLauncher `steam-helper.ts` download trio berikut dari repo GitHub `proton-maker/Depencies` (`main`):
+
+| File | Deploy ke |
+|------|-----------|
+| `dwmapi.dll` | `{Steam}/` |
+| `OpenSteamTool.dll` | `{Steam}/` |
+| `xinput1_4.dll` | `{Steam}/` |
+
+**Workflow sebelum push ke GitHub:**
+
+1. Letakkan trio DLL di root folder `Depencies/`
+2. Jalankan `run-checksums.bat` (atau `python generate_checksums.py`) agar `checksums.json` ter-update
+3. Commit + push ke `https://github.com/proton-maker/Depencies`
+4. Verifikasi raw URL, contoh: `https://raw.githubusercontent.com/proton-maker/Depencies/main/OpenSteamTool.dll`
+
+Legacy DLL (`user32.dll`, `RendererOverlay.dll`, `python311.dll`) tidak lagi dipakai DGLauncher — boleh dihapus dari repo saat publish OpenSteamTool.
+
 ## Features
 
 - ✓ Generate SHA-256 checksums untuk semua file di directory

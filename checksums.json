@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated": "2026-05-07T03:29:36.187948",
-    "base_directory": "C:\\Users\\kenwi\\Documents\\GitHub\\Depencies",
-    "total_files": 12,
+    "generated": "2026-07-20T14:39:11.034810",
+    "base_directory": "C:\\Users\\kenwi\\Documents\\GitHub\\Digitaldepot\\Depencies",
+    "total_files": 13,
     "generator": "DGelectron Checksum Generator v1.0"
   },
   "files": {
@@ -13,10 +13,10 @@
       "size_human": "68.00 B"
     },
     "dwmapi.dll": {
-      "sha256": "1ce49ed63af004ad37a4d2921a5659a17001c4c0026d6245fcc0d543e9c265d0",
-      "size": 136120,
-      "modified": "2026-05-07T02:48:47.581212",
-      "size_human": "132.93 KB"
+      "sha256": "cc086189e9ae5f6fec1b9839110fd5ec5836e86989cb5f15cab80bb813df44f8",
+      "size": 109568,
+      "modified": "2026-06-13T19:14:11.706152",
+      "size_human": "107.00 KB"
     },
     "hid.dll": {
       "sha256": "306d129b6de45b07ca82bc68be8d3b761347d35b7c49f916f125f61640a73817",
@@ -36,6 +36,12 @@
       "modified": "2026-04-30T18:54:40.677382",
       "size_human": "21.66 KB"
     },
+    "OpenSteamTool.dll": {
+      "sha256": "b2ed24e0b4e2d0dae4caa8817ed4c0c34af8fdf056f356fd697ae1356ea22581",
+      "size": 1446400,
+      "modified": "2026-06-13T19:14:58.329432",
+      "size_human": "1.38 MB"
+    },
     "python311.dll": {
       "sha256": "b83ab382c62501be6e8558f645f5335a271ba018db6ee6ee1edca6464ef3a03e",
       "size": 5213184,
@@ -43,10 +49,10 @@
       "size_human": "4.97 MB"
     },
     "README-CHECKSUMS.md": {
-      "sha256": "575c5cb4e3ac748b4b974f40fe029bb67e76066fc6850f1346323956c4cf720a",
-      "size": 7045,
-      "modified": "2026-04-30T18:54:40.552347",
-      "size_human": "6.88 KB"
+      "sha256": "da47c650995c95160a720e67ecf5d48a3dfbf85e530630a4356d6cd7d87630c5",
+      "size": 7875,
+      "modified": "2026-07-20T14:38:42.343317",
+      "size_human": "7.69 KB"
     },
     "RendererOverlay.dll": {
       "sha256": "b97dc4a55ea63361583b9b3c81598d7e9611ef2ff45f4fbe37db825eefb14a3f",
@@ -73,10 +79,10 @@
       "size_human": "2.02 MB"
     },
     "xinput1_4.dll": {
-      "sha256": "ddb1f0909c7092f06890674f90b5d4f1198724b05b4bf1e656b4063897340243",
-      "size": 673720,
-      "modified": "2026-05-07T02:48:46.833173",
-      "size_human": "657.93 KB"
+      "sha256": "730d6e3c1216228392cf336127ad663564cafdb560faf3ae8bdfcc8ca6f38a27",
+      "size": 122880,
+      "modified": "2026-06-13T19:14:12.484497",
+      "size_human": "120.00 KB"
     }
   }
 }
