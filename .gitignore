@@ -1,2 +1,6 @@
-
 mil.zip
+*.zip
+__pycache__/
+*.pyc
+*.tmp
+checksums.json
