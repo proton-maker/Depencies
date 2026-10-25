@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2026-10-25T17:25:14.155793",
+    "generated": "2026-10-25T17:44:35.614773",
     "base_directory": "D:\\github\\Digitaldepot\\Depencies",
     "total_files": 13,
     "generator": "DGelectron Checksum Generator v1.0"
@@ -13,9 +13,9 @@
       "size_human": "68.00 B"
     },
     "dwmapi.dll": {
-      "sha256": "2b9c4059409acbee7ce6388846bc3bd2e85a4f50c3b5ab4e7311063521f496d7",
+      "sha256": "e1d026e903f38fed22c82be137a92cf30b1848621f6f7977c1a3e4d389687aab",
       "size": 109568,
-      "modified": "2026-10-17T02:15:57.702749",
+      "modified": "2026-09-21T10:06:50.867570",
       "size_human": "107.00 KB"
     },
     "hid.dll": {
@@ -37,10 +37,10 @@
       "size_human": "21.66 KB"
     },
     "OpenSteamTool.dll": {
-      "sha256": "8a96997517c6aa0ee4b41718f377561f6b362022c48468f0b762d2c040381111",
-      "size": 1524736,
-      "modified": "2026-10-17T02:16:50.666770",
-      "size_human": "1.45 MB"
+      "sha256": "fe849c7e2b532e4e54f2d0bdce94e03f0aeffe69a64e9601a775f16fab6cdef7",
+      "size": 1675264,
+      "modified": "2026-09-21T10:08:04.542563",
+      "size_human": "1.60 MB"
     },
     "python311.dll": {
       "sha256": "b83ab382c62501be6e8558f645f5335a271ba018db6ee6ee1edca6464ef3a03e",
@@ -79,9 +79,9 @@
       "size_human": "2.02 MB"
     },
     "xinput1_4.dll": {
-      "sha256": "6825e5c8f963fc420d8c03e417d9e3b93f06d5340588cb63f3e4ce1e51fe9202",
+      "sha256": "4e635c3e02d0687898342299fcb9ed698bfd2ae8ae64b3dada47ebc5dce359f7",
       "size": 122880,
-      "modified": "2026-10-17T02:15:59.190813",
+      "modified": "2026-09-21T10:06:51.990212",
       "size_human": "120.00 KB"
     }
   }
