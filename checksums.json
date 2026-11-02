@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2026-10-25T18:39:22.475021",
+    "generated": "2026-11-03T01:26:25.283450",
     "base_directory": "D:\\github\\Digitaldepot\\Depencies",
     "total_files": 13,
     "generator": "DGelectron Checksum Generator v1.0"
@@ -37,10 +37,10 @@
       "size_human": "21.66 KB"
     },
     "OpenSteamTool.dll": {
-      "sha256": "fe849c7e2b532e4e54f2d0bdce94e03f0aeffe69a64e9601a775f16fab6cdef7",
-      "size": 1675264,
-      "modified": "2026-09-21T10:08:04.542563",
-      "size_human": "1.60 MB"
+      "sha256": "e28ab205a95cc95107fa905fbe2d96e45bffcd92ed292042360fd8f150262944",
+      "size": 1741312,
+      "modified": "2026-11-03T01:23:20.169131",
+      "size_human": "1.66 MB"
     },
     "python311.dll": {
       "sha256": "b83ab382c62501be6e8558f645f5335a271ba018db6ee6ee1edca6464ef3a03e",
@@ -69,7 +69,7 @@
     "Steam.cfg": {
       "sha256": "8d13a27912fc36bd1c67498835018242b938f2094dcf71fe369c74bf3d61ddd0",
       "size": 29,
-      "modified": "2026-04-30T18:54:40.583634",
+      "modified": "2026-11-03T01:23:17.515478",
       "size_human": "29.00 B"
     },
     "user32.dll": {
