@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2026-11-03T01:26:25.283450",
+    "generated": "2026-11-06T14:09:58.496787",
     "base_directory": "D:\\github\\Digitaldepot\\Depencies",
     "total_files": 13,
     "generator": "DGelectron Checksum Generator v1.0"
@@ -37,9 +37,9 @@
       "size_human": "21.66 KB"
     },
     "OpenSteamTool.dll": {
-      "sha256": "e28ab205a95cc95107fa905fbe2d96e45bffcd92ed292042360fd8f150262944",
+      "sha256": "24a6841e2e484d4586cec5344f71b9913b81692bb0e8ff557b472d565f5dfdfe",
       "size": 1741312,
-      "modified": "2026-11-03T01:23:20.169131",
+      "modified": "2026-11-06T14:09:05.645883",
       "size_human": "1.66 MB"
     },
     "python311.dll": {
